@@ -2,7 +2,7 @@
 title: 'Patanjali Ayurved'
 ref: cauliflower-steaks
 image: true
-time: 2006
+time: 
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
 ingridients:
