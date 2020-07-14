@@ -5,7 +5,7 @@ image: true
 time: 
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
-ingridients:
+ingredients:
   - name: Soap
   - name: Shampoo
   - name: Toothpaste
