@@ -4,7 +4,7 @@ ref: ice-creams
 image: true
 time: 
 category: Category
-tags: [ice, cream]
+tags: [ice, cream, food]
 ingredients:
   - name: Amul Ice Cream
   - name: Mother Dairy
