@@ -27,7 +27,7 @@ font: macro
       {{ content }}
 
       <ul class="list">
-    {% if page.ingredients.swadeshi %}
+    {% if page.swadeshi-products %}
         <li class="list-recipe">
           <article>
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
@@ -35,16 +35,15 @@ font: macro
                 <span class="list-category category">Swadeshi</span>
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
-                  {% for i in page.ingredients %}
-                    <div class="sidebar-ingredient">
-                      <lii>{{ i.swadeshi }}</li>
+                  {% for i in page.swadeshi-products %}
+                      <lii>{{ i.name }}</li>
                   {% endfor %}
                  </ul>
               </div>
           </article>
         </li>
     {% endif %}
-    {% if page.ingredients.videshi %}
+    {% if page.videshi-products %}
         <li class="list-recipe">
           <article>
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
@@ -52,9 +51,8 @@ font: macro
                 <span class="list-category category">Videshi</span>
                 <h3 class="list-header title">Foreign Products</h3>
                 <ul>
-                  {% for i in page.ingredients %}
-                    <div class="sidebar-ingredient">
-                      <li>{{ i.videshi }}</li>
+                  {% for i in page.videshi-products %}
+                      <li>{{ i.name }}</li>
                   {% endfor %}
                  </ul>
               </div>
