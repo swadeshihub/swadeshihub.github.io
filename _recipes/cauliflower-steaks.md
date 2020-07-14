@@ -1,45 +1,32 @@
 ---
-title: 'Cauliflower steaks with roasted red pepper & olive salsa'
-ref: cauliflower-steaks
+title: 'Patanjali Ayurved'
+ref: 
 image: true
 time: 30
-category: lunch
-tags: [vegan, vegetarian, quick]
-ingredients:
-  - name: cauliflower
-    amount: 1
+category: Made in India
+tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
+Products:
+  - name: Soap
+    amount:
     unit:
-  - name: smoked paprika
-    amount: ½
-    unit: tsp
-  - name: olive oil
-    amount: 2
-    unit: tbsp
-  - name: roasted red pepper
-    amount: 1
+  - name: Shampoo
+    amount:
+    unit: 
+  - name: Toothpaste
+    amount:
+    unit: 
+  - name: Toothbrush
+    amount: 
     unit:
-  - name: black olives, pitted
-    amount: 4
+  - name: Hair Oil
+    amount: 
     unit:
-  - name: parsley
-    amount: small
-    unit: handful
-  - name: capers
-    amount: 1
-    unit: tsp
-  - name: red wine vinegar
-    amount: ½
-    unit: tbsp
-  - name: toasted flaked almonds
-    amount: 2
-    unit: tbsp
 ---
 
-Unlock the flavours of cauliflower with a red pepper, olive and caper salsa, topped with almonds. Healthy and vegan, it makes a tasty light lunch or supper.
-
-1. Heat oven to 220C/200C fan/gas 7 and line a baking tray with baking parchment. Slice the cauliflower into two 1-inch steaks – use the middle part as it’s larger, and save the rest for another time. Rub the paprika and 1⁄2 tbsp oil over the steaks and season. Put on the tray and roast for 15-20 mins until cooked through.
-2. Meanwhile, make the salsa. Chop the pepper, olives, parsley and capers, and put into a bowl and mix with the remaining oil and vinegar. Season to taste. When the steaks are cooked, spoon over the salsa and top with flaked almonds to serve.
+  Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
+  The company manufactures mineral and herbal products. 
+  According to CLSA and HSBC, Patanjali is the fastest growing FMCG company in India. It is valued at ₹3,000 crore (equivalent to ₹35 billion or US$490 million in 2019) and some predict revenues of ₹5,000 crore (US$700 million) for the fiscal 2015–16. Patanjali declared its annual turnover of the year 2016–17 to be estimated ₹10,216 crore (US$1.4 billion). It was listed 13th in the list of India's most trusted brands (The Brand Trust Report) as of 2018, and ranks first in FMCG category.
 
 ---
 
-_From [BBC Good Food](https://www.bbcgoodfood.com/recipes/cauliflower-steaks-roasted-red-pepper-olive-salsa)._
+_From [Wikipedia](https://en.wikipedia.org/wiki/Patanjali_Ayurved)._
