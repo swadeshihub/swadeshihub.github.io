@@ -11,23 +11,6 @@ plugins:
 
 # Settings
 color: '#fab005'
-exclude:
-  [
-    CNAME,
-    README.md,
-    NOTES.md,
-    LICENSE.md,
-    .gitignore,
-    package.json,
-    _js,
-    _scss,
-    _images,
-    gulpfile.js,
-    gulpconfig.js,
-    node_modules,
-    gemfile,
-    Gemfile.lock,
-  ]
 permalink: /:title/
 compress_html:
   clippings: all
