@@ -1,6 +1,6 @@
 ---
 title: 'Package Drinking Water'
-ref: gin-tonic-popsicle
+ref: package-drinking-water
 image: true
 time: 5
 category: Category
