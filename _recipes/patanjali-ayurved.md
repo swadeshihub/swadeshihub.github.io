@@ -2,25 +2,15 @@
 title: 'Patanjali Ayurved'
 ref: cauliflower-steaks
 image: true
-time: since 2006
+time: 2006
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
 ingridients:
   - name: Soap
-    amount: Pathanjali
-    unit:
   - name: Shampoo
-    amount:
-    unit: 
   - name: Toothpaste
-    amount:
-    unit: 
   - name: Toothbrush
-    amount: 
-    unit:
   - name: Hair Oil
-    amount: 
-    unit:
 ---
 
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
