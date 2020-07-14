@@ -5,7 +5,7 @@ image: true
 time: 
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
-ingredients:
+swadeshi-products:
   - name: Soap
   - name: Shampoo
   - name: Toothpaste
