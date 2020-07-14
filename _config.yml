@@ -11,58 +11,41 @@ plugins:
 
 # Settings
 color: '#fab005'
-exclude:
-  [
-    CNAME,
-    README.md,
-    NOTES.md,
-    LICENSE.md,
-    .gitignore,
-    package.json,
-    _js,
-    _scss,
-    _images,
-    gulpfile.js,
-    gulpconfig.js,
-    node_modules,
-    gemfile,
-    Gemfile.lock,
-  ]
 permalink: /:title/
 compress_html:
   clippings: all
   comments: all
-dark_theme: false
+dark_theme: true
 
 # Site meta
-title: Summer
-tagline: 'Delicious & healthy recipes'
-description: 'A simple Jekyll theme with a photo sidebar.'
-keywords: 'connor, bär, designer, traveller, code, jekyll, developer, theme'
-url: https://connor-baer.github.io
-baseurl: /summer
+title: Swadeshi Hub
+tagline: 'Vocal for Local'
+description: 'A Hub of Swadeshi - Made in India Products'
+keywords: 'swadeshi, made in india, india'
+url: https://swadeshi-hub.github.io
+baseurl: /
 assets: /assets
 images: /images/
 image: index-large.jpg
 logo: /assets/icons/apple-icon-144x144.png
 
 author:
-  name: Connor Bär
-  bio: Hi, I'm Connor, the author of this blog. Nice to meet you!
+  name: Swadeshi Hub
+  bio: A Hub of Swadeshi - Made in India Products
   image: author
-  url: https://connorbaer.co
-  email: hello@connorbaer.co
-  twitter: connor_baer
+  url: 
+  email: 
+#   twitter: 
 
-social:
-  twitter: https://twitter.com/connor_baer
-  instagram: https://instagram.com/connor_baer
-  github: https://github.com/connor-baer/summer
+# social:
+#   twitter: https://twitter.com/connor_baer
+#   instagram: https://instagram.com/connor_baer
+#   github: https://github.com/connor-baer/summer
 
 version: 2.0.0
 
-github:
-  repo: https://github.com/connor-baer/summer
+# github:
+#   repo: https://github.com/connor-baer/summer
 
 # Integrations
 # typekit:              fcv7rfe
@@ -77,8 +60,8 @@ google_fonts:
 excerpt_separator: <!-- Read more -->
 
 navigation:
-  GitHub: https://github.com/connor-baer/summer
-  Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
+#   GitHub: https://github.com/swadeshi-hub
+#   Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
 
 collections:
   recipes:
