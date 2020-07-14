@@ -13,7 +13,7 @@ font: macro
     {% endif %}
 
     <header class="content hero">
-      <img src="url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg');"/>
+      <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg"/>
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
       {% include custom/meta.html %}
     </header>
