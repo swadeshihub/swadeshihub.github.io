@@ -26,9 +26,7 @@ font: macro
 
       {{ content }}
 
-      <ul class="list">
     {% if page.swadeshi-products %}
-        <li class="list-recipe">
           <article>
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
@@ -36,12 +34,11 @@ font: macro
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
                   {% for i in page.swadeshi-products %}
-                      <lii>{{ i.name }}</li>
+                      <li>{{ i.name }}</li>
                   {% endfor %}
                  </ul>
               </div>
           </article>
-        </li>
     {% endif %}
     {% if page.videshi-products %}
         <li class="list-recipe">
