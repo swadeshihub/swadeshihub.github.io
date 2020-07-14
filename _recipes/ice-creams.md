@@ -5,23 +5,24 @@ image: true
 time: 
 category: Category
 tags: [ice, cream, food]
-ingredients:
+swadeshi-products:
   - name: Amul Ice Cream
   - name: Mother Dairy
   - name: Arun Ice Cream
   - name: Cream Bell
   - name: Gokul
+videshi-products:
+  - name: Kwality Walls
+  - name: Corneto
+  - name: Cadbury
+  - name: Dollop
+  - name: Nice
+  - name: Baskin-Robbins
+  - name: Yanki Doodles
 ---
 
-## Some Videshi Products
 
-- Kwality Walls
-- Corneto
-- Cadbury
-- Dollop
-- Nice
-- Baskin-Robbins
-- Yanki Doodles
+
 
 ---
 
