@@ -4,8 +4,8 @@ ref: package-drinking-water
 image: true
 time: 5
 category: Category
-tags: [water]
-ingredients:
+tags: [water, food]
+swadeshi-products:
   - name: Bisleri
   - name: Bailley
   - name: Himalaya
@@ -14,6 +14,8 @@ ingredients:
   - name: Bebo
   - name: Hind Neer
   - name: Vedika
+videshi-products:
+  - name: Acquafina
 ---
 
 ---
