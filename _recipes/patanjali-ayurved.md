@@ -1,6 +1,6 @@
 ---
 title: 'Patanjali Ayurved'
-ref: cauliflower-steaks
+ref: pathanjali
 image: true
 time: 
 category: Made in India
