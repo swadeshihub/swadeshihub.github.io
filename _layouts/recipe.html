@@ -27,7 +27,7 @@ font: macro
       {{ content }}
 
     {% if page.swadeshi-products %}
-          <article style="width:48%">
+          <article style="width:48%" class="list-recipe">
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
                 <span class="list-category category">Swadeshi</span>
@@ -41,8 +41,7 @@ font: macro
           </article>
     {% endif %}
     {% if page.videshi-products %}
-        <li class="list-recipe">
-          <article style="width:48%">
+          <article style="width:48%" class="list-recipe">
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
                 <span class="list-category category">Videshi</span>
@@ -54,7 +53,6 @@ font: macro
                  </ul>
               </div>
           </article>
-        </li>
     {% endif %}
       </ul>
       {% include core/share.html %}
