@@ -31,7 +31,7 @@ logo: /assets/icons/apple-icon-144x144.png
 
 author:
   name: Swadeshi Hub
-  bio: Vocal for Local
+  bio: A Hub of Swadeshi - Made in India Products
   image: author
   url: 
   email: 
@@ -60,7 +60,7 @@ google_fonts:
 excerpt_separator: <!-- Read more -->
 
 navigation:
-  GitHub: https://github.com/swadeshi-hub
+#   GitHub: https://github.com/swadeshi-hub
 #   Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
 
 collections:
