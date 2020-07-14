@@ -18,49 +18,50 @@ font: macro
       {% include custom/meta.html %}
     </header>
     
-    <ul class="list">
-      <li class="list-recipe">
-        <article>
-            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
-            <div class="list-body">
-              <span class="list-category category">Swadeshi</span>
-              <h3 class="list-header title">Made in India</h3>
-              <ul>
-                {% for i in page.ingredients %}
-                  <div class="sidebar-ingredient">
-                    <li class="sidebar-name">{{ i.name }}</li>
-                {% endfor %}
-               </ul>
-            </div>
-        </article>
-      </li>
-      <li class="list-recipe">
-        <article>
-            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
-            <div class="list-body">
-              <span class="list-category category">Videshi</span>
-              <h3 class="list-header title">Foreign Products</h3>
-              <ul>
-                {% for i in page.ingredients %}
-                  <div class="sidebar-ingredient">
-                    <li class="sidebar-name">{{ i.name }}</li>
-                {% endfor %}
-               </ul>
-            </div>
-        </article>
-      </li>
-    </ul>
   </div>
 
-  {% if page.ingredients %}
-    {% include custom/sidebar.html %}
-  {% endif %}
 
   <div class="content-bottom">
     <div class="content content-recipe content-style">
 
       {{ content }}
 
+      <ul class="list">
+    {% if page.ingredients.swadeshi %}
+        <li class="list-recipe">
+          <article>
+              <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+              <div class="list-body">
+                <span class="list-category category">Swadeshi</span>
+                <h3 class="list-header title">Made in India</h3>
+                <ul>
+                  {% for i in page.ingredients %}
+                    <div class="sidebar-ingredient">
+                      <lii>{{ i.swadeshi }}</li>
+                  {% endfor %}
+                 </ul>
+              </div>
+          </article>
+        </li>
+    {% endif %}
+    {% if page.ingredients.videshi %}
+        <li class="list-recipe">
+          <article>
+              <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+              <div class="list-body">
+                <span class="list-category category">Videshi</span>
+                <h3 class="list-header title">Foreign Products</h3>
+                <ul>
+                  {% for i in page.ingredients %}
+                    <div class="sidebar-ingredient">
+                      <li>{{ i.videshi }}</li>
+                  {% endfor %}
+                 </ul>
+              </div>
+          </article>
+        </li>
+    {% endif %}
+      </ul>
       {% include core/share.html %}
 
     </div>
