@@ -21,40 +21,32 @@ font: macro
     <ul class="list">
       <li class="list-recipe">
         <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
             <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
             <div class="list-body">
               <span class="list-category category">Swadeshi</span>
               <h3 class="list-header title">Made in India</h3>
-               {% for i in page.ingredients %}
-                <div class="sidebar-ingredient">
-                  <label class="sidebar-label" for="{{ i.name }}">
-                    <input class="sidebar-input" id="{{ i.name }}" type="checkbox" name="{{ i.name }}" value="{{ i.name }}">
-                    <span class="sidebar-checkbox">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path class="unchecked" d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
-                        <path class="checked" d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                      </svg>
-                    </span>
-                    <span class="sidebar-name">{{ i.name }}</span>
-                  </label>
-                </div>
-              {% endfor %}
+              <ul>
+                {% for i in page.ingredients %}
+                  <div class="sidebar-ingredient">
+                    <li class="sidebar-name">{{ i.name }}</li>
+                {% endfor %}
+               </ul>
             </div>
-          </a>
         </article>
       </li>
       <li class="list-recipe">
         <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
             <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
             <div class="list-body">
               <span class="list-category category">Videshi</span>
               <h3 class="list-header title">Foreign Products</h3>
-              {% include custom/meta.html %}
-              <span class="list-ingredients ingredients" data-ingredients="{% for i in page.ingredients %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
+              <ul>
+                {% for i in page.ingredients %}
+                  <div class="sidebar-ingredient">
+                    <li class="sidebar-name">{{ i.name }}</li>
+                {% endfor %}
+               </ul>
             </div>
-          </a>
         </article>
       </li>
     </ul>
