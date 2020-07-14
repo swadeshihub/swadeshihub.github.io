@@ -5,7 +5,7 @@ image: true
 time: 
 category: Category
 tags: [chips, wafers, snacks]
-ingredients:
+swadeshi-products:
   - name: Parle Wafers
   - name: Haldiram Chips
   - name: Parle Full Toss Smart Chips
@@ -20,19 +20,14 @@ ingredients:
   - name: Simba
   - name: A1
   - name: Cheese Ball
+videshi-products:
+  - name: Cheetos
+  - name: Lay's
+  - name: Aliva
+  - name: Bingo
+  - name: Uncle Chips
 ---
 
-Some of the Videshi Products :
-
-Cheetos
-
-Lay's
-
-Aliva
-
-Bingo
-
-Uncle Chips
 
 ---
 
