@@ -35,11 +35,11 @@ compress_html:
 dark_theme: false
 
 # Site meta
-title: Summer
-tagline: 'Delicious & healthy recipes'
-description: 'A simple Jekyll theme with a photo sidebar.'
-keywords: 'connor, bär, designer, traveller, code, jekyll, developer, theme'
-url: https://connor-baer.github.io
+title: Swadeshi Hub
+tagline: 'Vocal for Local'
+description: 'A Hub of Swadeshi - Made in India Products'
+keywords: 'swadeshi, made in india, india'
+url: https://swadeshi-hub.github.io
 baseurl: /summer
 assets: /assets
 images: /images/
