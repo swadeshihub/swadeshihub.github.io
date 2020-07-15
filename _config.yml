@@ -66,6 +66,10 @@ navigation:
 collections:
   recipes:
     output: true
+  vocalforlocal:
+    output: true
+  madeinindia:
+    output: true
 
 defaults:
   - scope:
