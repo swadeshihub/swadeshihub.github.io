@@ -79,7 +79,8 @@ exclude: true
               <span class="list-category category">{{ page.category }}</span>
               <h3 class="list-header title">{{ page.title }}</h3>
               {% include custom/meta.html %}
-              <span class="list-ingredients ingredients" data-ingredients="{% for i in page.ingredients %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
+              <span class="list-ingredients ingredients" data-ingredients="{% for i in page.swadeshi-products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
+              <span class="list-ingredients ingredients" data-ingredients="{% for i in page.videshi-products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
             </div>
           </a>
         </article>
