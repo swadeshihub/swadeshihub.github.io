@@ -124,7 +124,7 @@ function filterList() {
         ).length > 0;
 
       // Show the item if it matches the filters.
-      if (category && duration && meat && origin) {
+      if (category && type && meat && origin) {
         return true;
       }
 
