@@ -88,6 +88,13 @@ defaults:
       permalink: /:title/
   - scope:
       path: ''
+      type: madeinindia
+    values:
+      layout: madeinindia
+      lang: en
+      permalink: /:title/
+  - scope:
+      path: ''
       type: vocalforlocal
     values:
       layout: vocalforlocal

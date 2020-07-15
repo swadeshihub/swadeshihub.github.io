@@ -1,46 +1,28 @@
 ---
-title: 'Patanjali Ayurved'
-ref: pathanjali
+title: 'dashInn DECOR'
+tagline: Comfort at your Doorstep
+ref: dashindecor
 image: true
-time: 
-category: Made in India
-tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
-swadeshi-products:
-  - name: Dant Kanti - Herbal Toothpaste
-  
-  - name: Pathanjali Coconut Oil
-  - name: Kesh Kanti - Hair Oil
-  - name: Pathanjali Tejus - Hair Oil
-  - name: Kesh Kanti Protein - Hair Conditioner
-  - name: Kesh Kanti Almond - Hair Conditioner
-  
-  - name: Saundarya Face Wash
-  - name: Lemon Honey Face Wash
-  - name: Aloe Vera Gel
-  - name: Aloe Vera Kanti Body Cleanser - Soap
-  - name: Patanjali Beauty Cream
-  
-  - name: Patanjali Amla Juice - Immunity Booster
-  
-  - name: Divya Peya Herbal Tea - For Weight Loss
-  - name: Aloe Vera Juice - For Weight Loss
-  
-  - name: Ashwagandha Churna - For Weight Gain
-  - name: Patanjali Chyawanprash - Milk Powder
-  - name: Badam Pak - For Weight Gain
-  - name: Shatavar Churna - For Weight Gain
-  
-  - name: Patanjali Honey
-  - name: Patanjali Ghee
-  
-  - name: Patanjali Baby Care Products
+contact:
+  - phone: +91 9845552498
+  - email: dashinndecor@gmail.com
+  - address: #6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
+  - city: Bengaluru
+  - areacovered: Bengaluru City   
+category: Vocal for Local
+tags: [furniture,sofa,chair,table,interior,dining,bed,cots]
+products:
+  - name: Sheesham Dining Tables
+  - name: Sheesham Cots
+  - name: Sofas
+  - name: Plywood Cots
 ---
 
-  Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
-  
-  The company manufactures mineral and herbal products. 
-  
-  According to CLSA and HSBC, Patanjali is the fastest growing FMCG company in India. It is valued at ₹3,000 crore (equivalent to ₹35 billion or US$490 million in 2019) and some predict revenues of ₹5,000 crore (US$700 million) for the fiscal 2015–16. Patanjali declared its annual turnover of the year 2016–17 to be estimated ₹10,216 crore (US$1.4 billion). It was listed 13th in the list of India's most trusted brands (The Brand Trust Report) as of 2018, and ranks first in FMCG category.
+  We've been here in the market for quite a while now. Let's say a couple of decades. We have served in the best of interests to over thousands of customers across the city. Gathering the love and support of more than hundreds of satisfied valued-customers has enabled us to upscale to greater heights. Heads Up! we also own our very own native Manufacturing Industry that provides us the flexibility and eases to experiment, innovate, and revolutionize the way customers want their personalized homes to be. Lastly, one of the key components that drive our business is "Customer Relationship". We've always contained the needs and requisites of our customers with the utmost gravity. Delivering what we believe is nothing but the best!
+
+​
+
+  We deal with all kinds of furniture and Sheesham cots and tables. We customize and sell a wide variety of designer sofas and allow multiple fabric color customizations. A good amount of experience in the curtain and interiors section has added to our advantage the skills required to necessitate the perfect package for our "customers".For further details explore dashInn decor site and visit our contacts page.
 
 ---
 
