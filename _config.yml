@@ -64,7 +64,7 @@ navigation:
 #   Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
 
 collections:
-  recipes:
+  categories:
     output: true
   vocalforlocal:
     output: true
@@ -81,9 +81,9 @@ defaults:
       permalink: /news/:title/
   - scope:
       path: ''
-      type: category
+      type: categories
     values:
-      layout: category
+      layout: categories
       lang: en
       permalink: /:title/
   - scope:
