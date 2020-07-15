@@ -10,8 +10,8 @@ const searchOptions = {
     'category',
     'tags',
     'type',
-    { name: 'swadeshi-products', attr: 'data-swadeshi-products' },
-    { name: 'videshi-products', attr: 'data-videshi-products' }
+    { name: 'ingredients', attr: 'data-ingredients' },
+    { name: 'ingredients', attr: 'data-ingredients' }
   ],
   fuzzySearch: {
     searchClass: 'search',
@@ -100,31 +100,9 @@ function filterList() {
               .tags.split(', ')
               .indexOf(n) !== -1
         ).length > 0;
-      
-      // Check if item has meat.
-      const meat =
-        checkedMeat.length === 0 ||
-        checkedMeat.filter(
-          n =>
-            item
-              .values()
-              .tags.split(', ')
-              .indexOf(n) !== -1
-        ).length > 0;
-
-      // Check where item originates.
-      const origin =
-        checkedOrigin.length === 0 ||
-        checkedOrigin.filter(
-          n =>
-            item
-              .values()
-              .tags.split(', ')
-              .indexOf(n) !== -1
-        ).length > 0;
 
       // Show the item if it matches the filters.
-      if (category && type && meat && origin) {
+      if (category && type) {
         return true;
       }
 
