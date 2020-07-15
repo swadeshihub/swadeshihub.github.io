@@ -81,9 +81,9 @@ defaults:
       permalink: /news/:title/
   - scope:
       path: ''
-      type: recipes
+      type: category
     values:
-      layout: recipe
+      layout: category
       lang: en
       permalink: /:title/
   - scope:
