@@ -9,7 +9,7 @@ const searchOptions = {
     'title',
     'category',
     'tags',
-    'duration',
+    'type',
     { name: 'swadeshi-products', attr: 'data-swadeshi-products' },
     { name: 'videshi-products', attr: 'data-videshi-products' }
   ],
@@ -26,7 +26,7 @@ const searchOptions = {
 const recipeList = new List('js-list', searchOptions);
 
 const checkCategory = document.getElementsByClassName('js-category');
-const checkDuration = document.getElementsByClassName('js-duration');
+const checkType = document.getElementsByClassName('js-type');
 const checkMeat = document.getElementsByClassName('js-meat');
 const checkOrigin = document.getElementsByClassName('js-origin');
 
@@ -35,7 +35,7 @@ const checkBoxes = document.getElementsByClassName('searchbar-checkbox');
 // Filter the list with the selected filters.
 function filterList() {
   const checkedCategory = [];
-  const checkedDuration = [];
+  const checkedType = [];
   const checkedMeat = [];
   const checkedOrigin = [];
 
@@ -47,11 +47,11 @@ function filterList() {
     }
   }
 
-  // Put the checked durations into an array.
-  for (let n = 0; n < checkDuration.length; n += 1) {
-    if (checkDuration[n].checked) {
-      const valueDuration = checkDuration[n].value;
-      checkedDuration.push(valueDuration);
+  // Put the checked types into an array.
+  for (let n = 0; n < checkType.length; n += 1) {
+    if (checkType[n].checked) {
+      const valueType = checkType[n].value;
+      checkedType.push(valueType);
     }
   }
 
@@ -73,7 +73,7 @@ function filterList() {
 
   const checkedLength =
     checkedCategory.length +
-    checkedDuration.length +
+    checkedType.length +
     checkedMeat.length +
     checkedOrigin.length;
 
@@ -85,11 +85,22 @@ function filterList() {
         checkedCategory.length === 0 ||
         checkedCategory.indexOf(item.values().category) > -1;
 
-      // Check if duration is shorter.
-      const duration =
-        checkedDuration.length === 0 ||
-        checkedDuration >= item.values().duration;
+      // Check if type is shorter.
+//       const type =
+//         checkedType.length === 0 ||
+//         checkedType >= item.values().type;
 
+      // Check if item has tag.
+      const type =
+        checkedType.length === 0 ||
+        checkedType.filter(
+          n =>
+            item
+              .values()
+              .tags.split(', ')
+              .indexOf(n) !== -1
+        ).length > 0;
+      
       // Check if item has meat.
       const meat =
         checkedMeat.length === 0 ||
