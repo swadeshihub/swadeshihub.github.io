@@ -13,7 +13,6 @@ font: macro
     {% endif %}
 
     <header class="content hero">
-      <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg" style="width:90%"/>
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
       {% include custom/meta.html %}
     </header>
@@ -27,10 +26,10 @@ font: macro
       {{ content }}
 
     {% if page.swadeshi-products %}
-          <article style="width:42%" class="list-recipe">
+          <article class="list-recipe">
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
-                <span class="list-category category">Swadeshi</span>
+                <span class="list-category category" style="background:green">Swadeshi</span>
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
                   {% for i in page.swadeshi-products %}
@@ -41,11 +40,11 @@ font: macro
           </article>
     {% endif %}
     {% if page.videshi-products %}
-          <article style="width:42%" class="list-recipe">
+          <article class="list-recipe">
               
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
-                <span class="list-category category">Videshi</span>
+                <span class="list-category category" style="background:red">Videshi</span>
                 <h3 class="list-header title">Foreign Products</h3>
                 <ul>
                   {% for i in page.videshi-products %}
