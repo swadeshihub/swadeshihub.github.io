@@ -10,8 +10,9 @@ const searchOptions = {
     'category',
     'tags',
     'type',
-    { name: 'ingredients', attr: 'data-ingredients' },
-    { name: 'ingredients', attr: 'data-ingredients' }
+    { name: 'swadeshi-products', attr: 'data-swadeshi-products' },
+    { name: 'videshi-products', attr: 'data-videshi-products' },
+    { name: 'products', attr: 'data-products' }
   ],
   fuzzySearch: {
     searchClass: 'search',
@@ -52,22 +53,6 @@ function filterList() {
     if (checkType[n].checked) {
       const valueType = checkType[n].value;
       checkedType.push(valueType);
-    }
-  }
-
-  // Put the checked tags into an array.
-  for (let o = 0; o < checkMeat.length; o += 1) {
-    if (checkMeat[o].checked) {
-      const valueMeat = checkMeat[o].value;
-      checkedMeat.push(valueMeat);
-    }
-  }
-
-  // Put the checked tags into an array.
-  for (let p = 0; p < checkOrigin.length; p += 1) {
-    if (checkOrigin[p].checked) {
-      const valueOrigin = checkOrigin[p].value;
-      checkedOrigin.push(valueOrigin);
     }
   }
 

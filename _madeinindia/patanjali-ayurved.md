@@ -5,7 +5,7 @@ image: true
 time: 
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
-swadeshi-products:
+products:
   - name: Dant Kanti - Herbal Toothpaste
   
   - name: Pathanjali Coconut Oil

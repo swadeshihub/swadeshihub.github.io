@@ -1,5 +1,5 @@
 <aside class="sidebar" id="js-sidebar">
-  <div class="sidebar-background"></div>
+  <div class="sidebar-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/contact.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/contact.jpeg') 2x )"></div>
   <div class="sidebar-overlay"></div>
   <div class="sidebar-wrapper">
     <h1 class="sidebar-headline">Contact Details</h1>
@@ -7,7 +7,7 @@
       {% if page.contact %}
       {% assign details = page.contact %}
         <div class="sidebar-ingredient">
-          <label class="sidebar-label">
+          <label class="sidebar-label">{{ details.phone }}
             <span class="sidebar-name">Phone : {{ details.phone }}</span>
             <span class="sidebar-name">Email : {{ details.email }}</span>
             <span class="sidebar-name">Address : {{ details.address }}</span>

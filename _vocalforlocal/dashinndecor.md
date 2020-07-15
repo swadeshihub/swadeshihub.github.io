@@ -10,7 +10,7 @@ contact:
   - city: Bengaluru
   - areacovered: Bengaluru City   
 category: Vocal for Local
-tags: [furniture,sofa,chair,table,interior,dining,bed,cots]
+tags: [furniture, sofa, chair, table, interior, dining, bed, cots]
 products:
   - name: Sheesham Dining Tables
   - name: Sheesham Cots
@@ -18,7 +18,7 @@ products:
   - name: Plywood Cots
 ---
 
-  We've been here in the market for quite a while now. Let's say a couple of decades. We have served in the best of interests to over thousands of customers across the city. Gathering the love and support of more than hundreds of satisfied valued-customers has enabled us to upscale to greater heights. Heads Up! we also own our very own native Manufacturing Industry that provides us the flexibility and eases to experiment, innovate, and revolutionize the way customers want their personalized homes to be. Lastly, one of the key components that drive our business is "Customer Relationship". We've always contained the needs and requisites of our customers with the utmost gravity. Delivering what we believe is nothing but the best!
+   We've been here in the market for quite a while now. Let's say a couple of decades. We have served in the best of interests to over thousands of customers across the city. Gathering the love and support of more than hundreds of satisfied valued-customers has enabled us to upscale to greater heights. Heads Up! we also own our very own native Manufacturing Industry that provides us the flexibility and eases to experiment, innovate, and revolutionize the way customers want their personalized homes to be. Lastly, one of the key components that drive our business is "Customer Relationship". We've always contained the needs and requisites of our customers with the utmost gravity. Delivering what we believe is nothing but the best!
 
 ​
 
