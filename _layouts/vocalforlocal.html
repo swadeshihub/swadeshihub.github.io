@@ -3,7 +3,7 @@ layout: default
 font: macro
 ---
 
-<article class="recipe{% if page.ingredients %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
+<article class="recipe{% if page.contact %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
   <div class="content-top">
     {% include core/metabar.html %}
 
@@ -14,7 +14,7 @@ font: macro
 
     <header class="content hero">
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
-      <h3 class="hero-title">{{ page.tagline }}</h3>
+      <h3 class="">{{ page.tagline }}</h3>
       {% include custom/meta.html %}
     </header>
     

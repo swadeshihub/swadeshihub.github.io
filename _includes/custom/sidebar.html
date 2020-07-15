@@ -5,13 +5,14 @@
     <h1 class="sidebar-headline">Contact Details</h1>
     <form class="sidebar-ingredients">
       {% if page.contact %}
+      {% assign details = page.contact %}
         <div class="sidebar-ingredient">
           <label class="sidebar-label">
-            <span class="sidebar-name">Phone : {{ page.contact.phone }}</span>
-            <span class="sidebar-name">Email : {{ page.contact.email }}</span>
-            <span class="sidebar-name">Address : {{ page.contact.address }}</span>
-            <span class="sidebar-name">City : {{ page.contact.city }}</span>
-            <span class="sidebar-name category">Area Covered : {{ page.contact.areacovered }}</span>
+            <span class="sidebar-name">Phone : {{ details.phone }}</span>
+            <span class="sidebar-name">Email : {{ details.email }}</span>
+            <span class="sidebar-name">Address : {{ details.address }}</span>
+            <span class="sidebar-name">City : {{ details.city }}</span>
+            <span class="sidebar-name category">Area Covered : {{ details.areacovered }}</span>
           </label>
         </div>
       {% endif %}
