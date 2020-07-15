@@ -69,6 +69,7 @@ exclude: true
 
     <ul class="list">
       {% assign recipes = site.recipes | where: "lang", page.lang %}
+      {% assign vocalforlocal = site.vocalforlocal | where: "lang", page.lang %}
       {% for page in recipes %}
 
       <li class="list-recipe">
