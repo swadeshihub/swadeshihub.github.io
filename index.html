@@ -68,10 +68,10 @@ exclude: true
     </form>
 
     <ul class="list">
-      {% assign category = site.category | where: "lang", page.lang %}
+      {% assign cat = site.category | where: "lang", page.lang %}
       {% assign vocalforlocal = site.vocalforlocal | where: "lang", page.lang %}
       {% assign madeinindia = site.madeinindia | where: "lang", page.lang %}
-      {% for page in category %}
+      {% for page in cat %}
 
       <li class="list-recipe">
         <article>

@@ -1,7 +1,7 @@
 ---
 title: 'dashInn DECOR'
 tagline: Comfort at your Doorstep
-ref: dashindecor
+ref: dashinndecor
 image: true
 contact:
   - phone: +91 9845552498
