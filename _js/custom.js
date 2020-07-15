@@ -10,7 +10,8 @@ const searchOptions = {
     'category',
     'tags',
     'duration',
-    { name: 'ingredients', attr: 'data-ingredients' }
+    { name: 'swadeshi-products', attr: 'data-swadeshi-products' },
+    { name: 'videshi-products', attr: 'data-videshi-products' }
   ],
   fuzzySearch: {
     searchClass: 'search',
