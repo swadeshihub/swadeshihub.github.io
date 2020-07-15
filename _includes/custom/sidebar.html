@@ -4,18 +4,17 @@
   <div class="sidebar-wrapper">
     <h1 class="sidebar-headline">Contact Details</h1>
     <form class="sidebar-ingredients">
-      {% if page.contact %}
-      {% assign details = page.contact %}
+      {% for details page.contact %}
         <div class="sidebar-ingredient">
           <label class="sidebar-label">{{ details.phone }}
-            <span class="sidebar-name">Phone : {{ details.phone }}</span>
-            <span class="sidebar-name">Email : {{ details.email }}</span>
-            <span class="sidebar-name">Address : {{ details.address }}</span>
-            <span class="sidebar-name">City : {{ details.city }}</span>
+            <span class="sidebar-name">Phone : {{ details.phone }}</span><br>
+            <span class="sidebar-name">Email : {{ details.email }}</span><br><hr>
+            <span class="sidebar-name">Address : {{ details.address }}</span><br>
+            <span class="sidebar-name">City : {{ details.city }}</span><br><hr>
             <span class="sidebar-name category">Area Covered : {{ details.areacovered }}</span>
           </label>
         </div>
-      {% endif %}
+      {% endfor %}
     </form>
   </div>
 </aside>
