@@ -14,25 +14,27 @@ font: macro
 
     <header class="content hero">
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
+      <h3 class="hero-title">{{ page.tagline }}</h3>
       {% include custom/meta.html %}
     </header>
     
   </div>
 
+      {% include custom/sidebar.html %}
 
   <div class="content-bottom">
     <div class="content content-recipe content-style">
 
       {{ content }}
 
-    {% if page.swadeshi-products %}
+    {% if page.products %}
           <article class="list-recipe">
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
-                  {% for i in page.swadeshi-products %}
+                  {% for i in page.products %}
                       <li>{{ i.name }}</li>
                   {% endfor %}
                  </ul>

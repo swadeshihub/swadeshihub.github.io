@@ -68,7 +68,7 @@ exclude: true
     </form>
 
     <ul class="list">
-      {% assign cat = site.category | where: "lang", page.lang %}
+      {% assign cat = site.categories | where: "lang", page.lang %}
       {% assign vocalforlocal = site.vocalforlocal | where: "lang", page.lang %}
       {% assign madeinindia = site.madeinindia | where: "lang", page.lang %}
       {% for page in cat %}
