@@ -86,3 +86,10 @@ defaults:
       layout: recipe
       lang: en
       permalink: /:title/
+  - scope:
+      path: ''
+      type: vocalforlocal
+    values:
+      layout: vocalforlocal
+      lang: en
+      permalink: /:title/
