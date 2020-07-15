@@ -6,11 +6,34 @@ time:
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
 swadeshi-products:
-  - name: Soap
-  - name: Shampoo
-  - name: Toothpaste
-  - name: Toothbrush
-  - name: Hair Oil
+  - name: Dant Kanti - Herbal Toothpaste
+  
+  - name: Pathanjali Coconut Oil
+  - name: Kesh Kanti - Hair Oil
+  - name: Pathanjali Tejus - Hair Oil
+  - name: Kesh Kanti Protein - Hair Conditioner
+  - name: Kesh Kanti Almond - Hair Conditioner
+  
+  - name: Saundarya Face Wash
+  - name: Lemon Honey Face Wash
+  - name: Aloe Vera Gel
+  - name: Aloe Vera Kanti Body Cleanser - Soap
+  - name: Patanjali Beauty Cream
+  
+  - name: Patanjali Amla Juice - Immunity Booster
+  
+  - name: Divya Peya Herbal Tea - For Weight Loss
+  - name: Aloe Vera Juice - For Weight Loss
+  
+  - name: Ashwagandha Churna - For Weight Gain
+  - name: Patanjali Chyawanprash - Milk Powder
+  - name: Badam Pak - For Weight Gain
+  - name: Shatavar Churna - For Weight Gain
+  
+  - name: Patanjali Honey
+  - name: Patanjali Ghee
+  
+  - name: Patanjali Baby Care Products
 ---
 
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
