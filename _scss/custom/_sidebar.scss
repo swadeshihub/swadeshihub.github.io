@@ -8,7 +8,7 @@
 
 // 1. Containers //
 
-$sidebar-width: 16rem;
+$sidebar-width: 18rem;
 
 .recipe-hasSidebar > div {
   @include mappy-query(tablet) {
