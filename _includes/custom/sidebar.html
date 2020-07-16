@@ -2,15 +2,15 @@
   <div class="sidebar-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/contact.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/contact.jpeg') 2x )"></div>
   <div class="sidebar-overlay"></div>
   <div class="sidebar-wrapper">
-    <h1 class="sidebar-headline">Contact Details</h1>
+    <h1 class="sidebar-headline">Contact Details</h1><hr>
     <form class="sidebar-ingredients">
         <div class="sidebar-ingredient">
           <label class="sidebar-label">
-            <span class="sidebar-name">Phone : {{ page.phone }}</span><br>
-            <span class="sidebar-name">Email : {{ page.email }}</span><br><hr>
-            <span class="sidebar-name">Address : {{ page.address }}</span><br>
-            <span class="sidebar-name">City : {{ page.city }}</span><br><hr>
-            <span class="sidebar-name category">Area Covered : {{ page.areacovered }}</span>
+            <h3 class="sidebar-name">Phone : {{ page.phone }}</h3><br>
+            <h3 class="sidebar-name">Email : {{ page.email }}</h3><br><hr>
+            <h3 class="sidebar-name">City : {{ page.city }}</h3><br><hr>
+            <h3 class="sidebar-name">Address : {{ page.address }}</h3><br>
+            <h3 class="sidebar-name category">Area Covered : {{ page.areacovered }}</h3>
           </label>
         </div>
     </form>

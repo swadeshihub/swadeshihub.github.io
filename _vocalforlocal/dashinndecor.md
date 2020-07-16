@@ -3,12 +3,14 @@ title: 'dashInn DECOR'
 tagline: Comfort at your Doorstep
 ref: dashinndecor
 image: true
-contact:
-  - phone: +91 9845552498
-  - email: dashinndecor@gmail.com
-  - address: #6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
+
+contact: true
+phone: +91 9845552498
+email: dashinndecor@gmail.com
+address: #6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
 city: Bengaluru
-areacovered: Bengaluru City   
+areacovered: Bengaluru City  
+ 
 category: Vocal for Local
 tags: [furniture, sofa, chair, table, interior, dining, bed, cots]
 products:
