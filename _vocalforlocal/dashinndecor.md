@@ -7,8 +7,8 @@ contact:
   - phone: +91 9845552498
   - email: dashinndecor@gmail.com
   - address: #6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
-  - city: Bengaluru
-  - areacovered: Bengaluru City   
+city: Bengaluru
+areacovered: Bengaluru City   
 category: Vocal for Local
 tags: [furniture, sofa, chair, table, interior, dining, bed, cots]
 products:
@@ -26,4 +26,4 @@ products:
 
 ---
 
-_From [Wikipedia](https://en.wikipedia.org/wiki/Patanjali_Ayurved)._
+_From [dashInn DECOR](https://dashinndecor.com)._

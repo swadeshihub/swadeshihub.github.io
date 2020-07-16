@@ -20,12 +20,12 @@ font: macro
     
   </div>
 
+      {% include custom/sidebar.html %}
 
   <div class="content-bottom">
     <div class="content content-recipe content-style">
 
       {{ content }}
-
       <ul>
     {% if page.swadeshi-products %}
           <article class="list-recipe">
@@ -45,8 +45,8 @@ font: macro
           <article class="list-recipe">
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
               <div class="list-body">
-                <span class="list-category category" style="background:green">Swadeshi</span>
-                <h3 class="list-header title">Made in India</h3>
+                <span class="list-category category" style="background:green">Videshi</span>
+                <h3 class="list-header title">Foreign Products</h3>
                 <ul>
                   {% for i in page.videshi-products %}
                       <li>{{ i.name }}</li>
