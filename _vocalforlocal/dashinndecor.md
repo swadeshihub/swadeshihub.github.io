@@ -7,7 +7,7 @@ image: true
 contact: true
 phone: +91 9845552498
 email: dashinndecor@gmail.com
-address: #6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
+address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
 city: Bengaluru
 areacovered: Bengaluru City  
  
