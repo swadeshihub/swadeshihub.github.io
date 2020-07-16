@@ -2,7 +2,7 @@
 title: 'Package Drinking Water'
 ref: package-drinking-water
 image: true
-time: 5
+time: 
 category: Category
 tags: [water, food]
 swadeshi-products:
