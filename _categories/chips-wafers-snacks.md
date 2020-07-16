@@ -4,7 +4,7 @@ ref: chips-wafers-snacks
 image: true
 time: 
 category: Category
-tags: [chips, wafers, snacks]
+tags: [food, chips, wafers, snacks]
 swadeshi-products:
   - name: Parle Wafers
   - name: Haldiram Chips
