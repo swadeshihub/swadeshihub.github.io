@@ -10,12 +10,12 @@ image: true
   Namasthe ! This is a website to provide a platform Local Buisiness.
 </div>
 
-<a href="#">dis parturient montes</a>, here we bring in the Local buisinesses close to the consumer.
+<a href="#">Vocal for Local</a>, here we bring in the Local buisinesses close to the consumer.
 
 
 
 {% highlight js %}
-
+# Let's be a Vocal for Local
 {% endhighlight %}
 
 <dl>
