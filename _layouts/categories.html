@@ -30,10 +30,10 @@ font: macro
       <ul>
     {% if page.swadeshi-products %}
           <article class="list-recipe">
-              <div class="list-image"></div>
+              <!-- <div class="list-image"></div> -->
               <div class="list-body">
-                <span class="list-category category" style="background:green">Swadeshi</span>
                 <h3 class="list-header title">Made in India</h3>
+                <span class="list-category category" style="background:green">Swadeshi</span>
                 <ul>
                   {% for i in page.swadeshi-products %}
                       <li>{{ i.name }}</li>
