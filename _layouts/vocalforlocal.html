@@ -16,6 +16,7 @@ font: macro
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
       <h3 class="">{{ page.tagline }}</h3>
       {% include custom/meta.html %}
+      <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}" style="width:90%;">
     </header>
     
   </div>
@@ -29,7 +30,7 @@ font: macro
       <ul>
     {% if page.products %}
           <article class="list-recipe">
-              <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+              <div class="list-image" style="height:10px;""></div>
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
                 <h3 class="list-header title">Made in India</h3>

@@ -49,5 +49,3 @@ image: true
 </table>
 
 -----
-
-Want to see your buisiness also here? <a href="https://swadeshihub.github.io/register/vocal-for-local">Register Here.</a>
