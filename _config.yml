@@ -21,7 +21,7 @@ dark_theme: true
 title: Swadeshi Hub
 tagline: 'Vocal for Local'
 description: 'A Hub of Swadeshi - Made in India Products'
-keywords: 'swadeshi, made in india, india'
+keywords: 'swadeshi, made in india, india, local'
 url: https://swadeshihub.github.io
 baseurl: /
 assets: /assets
@@ -45,7 +45,7 @@ author:
 version: 2.0.0
 
 # github:
-#   repo: https://github.com/connor-baer/summer
+#   repo: https://github.com/
 
 # Integrations
 # typekit:              fcv7rfe
@@ -53,7 +53,7 @@ version: 2.0.0
 google_fonts:
   Overpass: 400, 600, 800
 
-# google_analytics_key: UA-37412525-4
+google_analytics_key: UA-172912914-1
 # google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
 
 # Content
