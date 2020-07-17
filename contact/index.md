@@ -10,4 +10,6 @@ image: true
 
 ## <a href="#">Connect with Us !</a>
 
+Got any Queries? Just drop a Mail and we'll revert back to you ASAP.
+
 * Email : <a href="#">swadeshihub.info@gmail.com</a>

@@ -14,7 +14,7 @@ This part of our site is developed with Interest focusing primarily on promoting
 
 In openly encouraging people to buy locally made goods, Our Prime Minister <a href="">Shri Narendra Modi</a> is not advocating discrimination against imports but encouraging us to buy Local Products to support the Local Buisinesses.
 
-## <a href="">About - Vocal for Local Campaign</a>
+## About - <a href="">Vocal for Local Campaign</a>
 
 The campaign 'Be Indian Buy Indian' will encourage all Indians to buy 'Made in India' products by using only some specially curated creatives on the social media platforms. The campaign will also encourage citizens to look for Made in India tags just as they check manufacturing date and MRP of items before buying any product. This simple principle, if followed, will help the country to rebuild its economy and become self-reliant.
 
