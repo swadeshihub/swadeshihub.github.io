@@ -4,6 +4,7 @@ title: Contact Us
 lang: en
 ref: contact-us
 image: true
+contact: true
 ---
 
 # <a href="#">Swadeshi Hub
