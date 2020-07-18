@@ -20,4 +20,4 @@ The campaign 'Be Indian Buy Indian' will encourage all Indians to buy 'Made in I
 
 ## <a href="">Our Approach - A Platform for Local</a>
 
-* Do you produce any local products or provide a service ? - Involve your buisiness also in our 'Vocal for Local Campaign'? <a href="https://swadeshihub.github.io/register/vocal-for-local">Register Here.</a>
+* Do you produce any local products or provide a service ? - Involve your buisiness also in our 'Vocal for Local Campaign'? <a href="https://swadeshihub.github.io/register-vocal-for-local">Register Here.</a>
