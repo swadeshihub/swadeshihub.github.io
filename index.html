@@ -169,4 +169,29 @@ exclude: true
   </div>
 </div>
 
+<script type="text/javascript">
+const checkCategory = document.getElementsByClassName('js-category');
+const checkType = document.getElementsByClassName('js-type');
+
+const checkedCategory = [];
+const checkedType = [];
+
+for (let m = 0; m < checkCategory.length; m += 1) {
+    if (checkCategory[m].checked) {
+      const valueCategory = checkCategory[m].value;
+      alert(valueCategory);
+      checkedCategory.push(valueCategory);
+    }
+  }
+
+  // Put the checked types into an array.
+for (let n = 0; n < checkType.length; n += 1) {
+  if (checkType[n].checked) {
+    const valueType = checkType[n].value;
+      alert(valueType);
+    checkedType.push(valueType);
+  }
+}
+</script>
+
 {% include core/footer.html %}
