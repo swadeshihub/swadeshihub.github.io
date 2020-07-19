@@ -85,9 +85,18 @@ function filterList() {
               .tags.split(', ')
               .indexOf(n) !== -1
         ).length > 0;
+      const type1 =
+        checkedType.length === 0 ||
+        checkedType.filter(
+          n =>
+            item
+              .values()
+              .tags.split(', ')
+              .indexOf(n) > -1
+        ).length > 0;
 
       // Show the item if it matches the filters.
-      if (category && type) {
+      if (category && type && type1) {
         return true;
       }
 
