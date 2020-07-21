@@ -1,6 +1,6 @@
 ---
 title: 'Television'
-ref: televsion
+ref: television
 image: true
 time: 
 category: Category
