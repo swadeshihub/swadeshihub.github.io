@@ -6,7 +6,7 @@ time:
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 Beauty:
-  - cat: Toothpaste
+  - cat: Toothpate & Toothbrush
     name: Dant Kanti - Herbal Toothpaste
 
   - cat: Hair Oil
@@ -23,6 +23,9 @@ Beauty:
   - name: Aloe Vera Kanti Body Cleanser - Soap
   - name: Patanjali Beauty Cream
 
+  - cat: Patanjali Baby Care Products
+
+Food:
   - cat: Energy Drinks
     name: Patanjali Amla Juice - Immunity Booster
 
@@ -34,10 +37,9 @@ Beauty:
   - name: Badam Pak - For Weight Gain
   - name: Shatavar Churna - For Weight Gain
 
-  - name: Patanjali Honey
+  - cat: Others
+    name: Patanjali Honey
   - name: Patanjali Ghee
-
-  - name: Patanjali Baby Care Products
 ---
 
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
