@@ -6,22 +6,25 @@ time:
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 Beauty:
-  - cat: toothpaste
+  - cat: Toothpaste
     name: Dant Kanti - Herbal Toothpaste
-    
-  - name: Pathanjali Coconut Oil
+
+  - cat: Hair Oil
+    name: Pathanjali Coconut Oil
   - name: Kesh Kanti - Hair Oil
   - name: Pathanjali Tejus - Hair Oil
   - name: Kesh Kanti Protein - Hair Conditioner
   - name: Kesh Kanti Almond - Hair Conditioner
 
-  - name: Saundarya Face Wash
+  - cat: Face Wash
+    name: Saundarya Face Wash
   - name: Lemon Honey Face Wash
   - name: Aloe Vera Gel
   - name: Aloe Vera Kanti Body Cleanser - Soap
   - name: Patanjali Beauty Cream
 
-  - name: Patanjali Amla Juice - Immunity Booster
+  - cat: Energy Drinks
+    name: Patanjali Amla Juice - Immunity Booster
 
   - name: Divya Peya Herbal Tea - For Weight Loss
   - name: Aloe Vera Juice - For Weight Loss
