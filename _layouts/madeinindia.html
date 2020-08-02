@@ -39,8 +39,8 @@ font: macro
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
                   {% for i in page.cat %}
-                    {% for j in page.i %}
-                        <li>{{ i.name }}</li>
+                    {% for j in page.i.name %}
+                        <li>{{ j.name }}</li>
                     {% endfor %}
                   {% endfor %}
                  </ul>
