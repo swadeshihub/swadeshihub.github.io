@@ -6,9 +6,9 @@ time:
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 Beauty:
-  - name: Dant Kanti - Herbal Toothpaste
-    cat: toothpaste
-
+  - cat: toothpaste
+    name: Dant Kanti - Herbal Toothpaste
+    
   - name: Pathanjali Coconut Oil
   - name: Kesh Kanti - Hair Oil
   - name: Pathanjali Tejus - Hair Oil
