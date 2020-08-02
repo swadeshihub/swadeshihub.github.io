@@ -1,4 +1,7 @@
----
+
+                  {% for i in page.videshi-products %}
+                      <li>{{ i.Beauty }}</li>
+                  {% endfor %}---
 layout: default
 font: macro
 ---
@@ -37,6 +40,9 @@ font: macro
                 <ul>
                   {% for i in page.products %}
                       <li>{{ i.name }}</li>
+                  {% endfor %}
+                  {% for i in page.videshi-products %}
+                      <li>{{ i.Beauty }}</li>
                   {% endfor %}
                  </ul>
               </div>
