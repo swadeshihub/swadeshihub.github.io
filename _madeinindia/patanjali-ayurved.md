@@ -5,37 +5,37 @@ image: true
 time:
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal]
+cat:
+  - Beauty
 products:
-  - cat:
-    c :toothpaste
-    - name: Dant Kanti - Herbal Toothpaste
+  - Beauty: Dant Kanti - Herbal Toothpaste
 
-    - name: Pathanjali Coconut Oil
-    - name: Kesh Kanti - Hair Oil
-    - name: Pathanjali Tejus - Hair Oil
-    - name: Kesh Kanti Protein - Hair Conditioner
-    - name: Kesh Kanti Almond - Hair Conditioner
+  - Beauty: Pathanjali Coconut Oil
+  - Beauty: Kesh Kanti - Hair Oil
+  - Beauty: Pathanjali Tejus - Hair Oil
+  - name: Kesh Kanti Protein - Hair Conditioner
+  - name: Kesh Kanti Almond - Hair Conditioner
 
-    - name: Saundarya Face Wash
-    - name: Lemon Honey Face Wash
-    - name: Aloe Vera Gel
-    - name: Aloe Vera Kanti Body Cleanser - Soap
-    - name: Patanjali Beauty Cream
+  - name: Saundarya Face Wash
+  - name: Lemon Honey Face Wash
+  - name: Aloe Vera Gel
+  - name: Aloe Vera Kanti Body Cleanser - Soap
+  - name: Patanjali Beauty Cream
 
-    - name: Patanjali Amla Juice - Immunity Booster
+  - name: Patanjali Amla Juice - Immunity Booster
 
-    - name: Divya Peya Herbal Tea - For Weight Loss
-    - name: Aloe Vera Juice - For Weight Loss
+  - name: Divya Peya Herbal Tea - For Weight Loss
+  - name: Aloe Vera Juice - For Weight Loss
 
-    - name: Ashwagandha Churna - For Weight Gain
-    - name: Patanjali Chyawanprash - Milk Powder
-    - name: Badam Pak - For Weight Gain
-    - name: Shatavar Churna - For Weight Gain
+  - name: Ashwagandha Churna - For Weight Gain
+  - name: Patanjali Chyawanprash - Milk Powder
+  - name: Badam Pak - For Weight Gain
+  - name: Shatavar Churna - For Weight Gain
 
-    - name: Patanjali Honey
-    - name: Patanjali Ghee
+  - name: Patanjali Honey
+  - name: Patanjali Ghee
 
-    - name: Patanjali Baby Care Products
+  - name: Patanjali Baby Care Products
 ---
 
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
