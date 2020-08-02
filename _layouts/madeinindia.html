@@ -38,13 +38,11 @@ font: macro
                   {% for i in page.cat %}
                     {% assign caat = i.name | where: "lang", page.lang %}   
                     {{ caat }}->
-                    {{ page.i }}->
-                    {{ page.i.name }}
+                    {{ page }}.{{ caat }}->
+                    {{ page.i.name.name }}
                     {% for j in page.caat %} 
                     {{ j }}
                       <li>{{ j.name }}</li>
-                    }
-                    }
                     {% endfor %}
                   {% endfor %}
                  </ul>
