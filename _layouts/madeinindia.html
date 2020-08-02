@@ -1,7 +1,4 @@
-
-                  {% for i in page.videshi-products %}
-                      <li>{{ i.Beauty }}</li>
-                  {% endfor %}---
+---
 layout: default
 font: macro
 ---
@@ -31,7 +28,7 @@ font: macro
 
       {{ content }}
       <ul>
-    {% if page.cat %}
+    {% if page.products %}
           <article class="list-recipe">
               <div class="list-image" style="height:20px;"></div>
               <div class="list-body">
@@ -39,9 +36,7 @@ font: macro
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
                   {% for i in page.cat %}
-                    {% for j in page.i.name %}
-                        <li>{{ j.name }}</li>
-                    {% endfor %}
+                      <li>{{ i.name }}</li>
                   {% endfor %}
                  </ul>
               </div>
