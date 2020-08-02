@@ -31,18 +31,17 @@ font: macro
 
       {{ content }}
       <ul>
-    {% if page.products %}
+    {% if page.cat %}
           <article class="list-recipe">
               <div class="list-image" style="height:20px;"></div>
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
                 <h3 class="list-header title">Made in India</h3>
                 <ul>
-                  {% for i in page.products %}
-                      <li>{{ i.name }}</li>
-                  {% endfor %}
-                  {% for i in page.products %}
-                      <li>{{ i.Beauty }}</li>
+                  {% for i in page.cat %}
+                    {% for j in page.i %}
+                        <li>{{ i.name }}</li>
+                    {% endfor %}
                   {% endfor %}
                  </ul>
               </div>
