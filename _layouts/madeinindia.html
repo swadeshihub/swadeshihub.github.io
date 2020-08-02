@@ -28,20 +28,15 @@ font: macro
 
       {{ content }}
       <ul>
-    {% if page.cat %}
+    {% if page.Beauty %}
           <article class="list-recipe">
               <div class="list-image" style="height:20px;"></div>
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
-                <h3 class="list-header title">Made in India</h3>
+                <h3 class="list-header title">Beauty Products</h3>
                 <ul>
-                  {% for i in page.cat.Beauty %}
-                    {% assign caat = i.name | where: "lang", page.lang %}   
-                    {{ i }}->
-                    {{ caat }}->
-                    {{ page.cat }}
-                      <!-- <li>{{ j.name }}</li> -->
-                    <!-- {% endfor %} -->
+                  {% for i in page.Beauty %}
+                    <li>{{ j.name }}</li>
                   {% endfor %}
                  </ul>
               </div>
