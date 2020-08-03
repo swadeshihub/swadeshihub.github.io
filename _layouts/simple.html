@@ -3,33 +3,28 @@ layout: default
 font: macro
 ---
 
-<article class="recipe{% if page.contact %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
+<article class="post{% if page.image %} entry-hasBackground{% endif %}">
   <div class="content-top">
-    {% include core/metabar.html %}
-
     {% if page.image %}
-      <div class="hero-background" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg); background-image: -webkit-image-set( url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg) 1x, url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpeg) 2x )"></div>
+      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}-large.jpeg') 2x )"></div>
       <div class="hero-overlay"></div>
+      {% include core/metabar.html color="-white" %}
+    {% else %}
+      {% include core/metabar.html %}
     {% endif %}
-
     <header class="content hero">
-      <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
-      <h3 class="">{{ page.tagline }}</h3>
-      {% include custom/meta.html %}
-      <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}" style="width:90%;">
+      <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}</h1></a>
     </header>
-    
   </div>
 
-      <!-- {% include custom/sidebar.html %} -->
-
   <div class="content-bottom">
-    <div class="content content-recipe content-style">
+    <div class="content content-style">
 
       {{ content }}
 
-    </div>
+      {% include core/share.html %}
 
-    {% include core/footer.html %}
   </div>
 </article>
+
+{% include core/footer.html %}
