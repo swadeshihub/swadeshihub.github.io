@@ -34,13 +34,11 @@ author:
   bio: A Hub of Swadeshi - Made in India Products
   image: author
   url: 
-  email: 
-#   twitter: 
+  email: swadeshihub.info@gmail.com
+  twitter: HubSwadeshi
 
-# social:
-#   twitter: https://twitter.com/connor_baer
-#   instagram: https://instagram.com/connor_baer
-#   github: https://github.com/connor-baer/summer
+social:
+  twitter: https://twitter.com/HubSwadeshi
 
 version: 2.0.0
 
