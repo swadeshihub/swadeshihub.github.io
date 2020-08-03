@@ -1,5 +1,6 @@
 ---
 title: 'Patanjali Ayurved'
+comments: true
 ref: pathanjali
 image: true
 time:
