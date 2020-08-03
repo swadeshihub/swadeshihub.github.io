@@ -68,6 +68,8 @@ collections:
     output: true
   madeinindia:
     output: true
+  simple:
+    output: true
 
 defaults:
   - scope:
@@ -96,5 +98,12 @@ defaults:
       type: vocalforlocal
     values:
       layout: vocalforlocal
+      lang: en
+      permalink: /:title/
+  - scope:
+      path: ''
+      type: simple
+    values:
+      layout: simple
       lang: en
       permalink: /:title/
