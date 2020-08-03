@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Vocal for Local
 lang: en
 ref: vocal-for-local

@@ -1,7 +1,7 @@
 ---
 title: 'Terms & Comditions - Swadeshi Hub'
 ref: terms-and-conditions
-image: false
+image: true
 ---
 
 ---
