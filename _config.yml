@@ -58,8 +58,9 @@ google-site-verification: 3DscbxAkFyePxX8tydaYU82Bxkg-8mmEuHfNhQJgL8o
 excerpt_separator: <!-- Read more -->
 
 navigation:
-  # Vocal for Local: https://swadeshihub.github.io/news/vocal-for-local
-#   Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
+  Vocal for Local: /vocal-for-local
+  About Us: /about
+  Contact: /contact
 
 collections:
   categories:
