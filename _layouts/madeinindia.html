@@ -64,8 +64,7 @@ font: macro
     {% endif %}
       </ul>
       {% include core/share.html %}
-    </div>
-{% if page.comments %}
+      {% if page.comments %}
 <script id="dsq-count-scr" src="//swadeshihub-github-io.disqus.com/count.js" async></script>
 <div id="disqus_thread"></div>
 <script>
@@ -89,6 +88,8 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
+    </div>
+
     {% include core/footer.html %}
   </div>
 </article>
