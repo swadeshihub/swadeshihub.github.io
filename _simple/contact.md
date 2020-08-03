@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Contact Us
 lang: en
 ref: contact-us
