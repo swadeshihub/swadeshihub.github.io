@@ -46,8 +46,8 @@ Additionally, you agree not to:
 0.7. Attack Service via a denial-of-service attack or a distributed denial-of-service attack.
 0.8. Take any action that may damage or falsify Company rating.
 0.9. Otherwise attempt to interfere with the proper working of Service.
-6. Analytics
 
+## 6. Analytics
 We may use third-party Service Providers to monitor and analyze the use of our Service.
 
 ## 7. No Use By Minors
