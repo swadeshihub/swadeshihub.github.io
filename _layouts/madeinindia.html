@@ -36,6 +36,17 @@ font: macro
           <input class="searchbar-checkbox js-category" type="checkbox" id="beauty" value="Beauty Products">
           <span class="searchbar-button">Beauty Products</span>
         </label>
+      {% for p in page.products %}
+        {% for mc in p.maincat %}
+          {% if mc.main %}
+            {% assign main = mc.main | where: "lang", page.lang %}
+            <label for="{{ main }}">
+              <input class="searchbar-checkbox js-category" type="checkbox" id="{{ main }}" value="{{ main }} Products">
+              <span class="searchbar-button">{{ main }} Products</span>
+            </label>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
       </fieldset>
     </form>
 
@@ -48,20 +59,20 @@ font: macro
         {% endif %}
       <li class="list-recipe">
         <article>
-            <div class="list-image" style="height:20px;"></div>
-            <div class="list-body">
-              <span class="list-category category" style="background:green">{{ main }} Products</span>
-              <ul>
-                {% for sc in mc.subcat %}
-                  {% if sc.sub %}
-                    <h3 class="list-header title"><a href="">{{ sc.sub }}</a></h3>
-                  {% endif %}
-                  <li>{{ sc.name }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </article>
-        </li>
+          <div class="list-image" style="height:20px;"></div>
+          <div class="list-body">
+            <span class="list-category category" style="background:green">{{ main }} Products</span>
+            <ul>
+              {% for sc in mc.subcat %}
+                {% if sc.sub %}
+                  <h3 class="list-header title"><a href="">{{ sc.sub }}</a></h3>
+                {% endif %}
+                <li>{{ sc.name }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </li>
       {% endfor %}
     {% endfor %}
     </ul>
