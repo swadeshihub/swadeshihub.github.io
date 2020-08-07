@@ -10,11 +10,11 @@ products:
   - maincat: 
     - cat: 
         - subcat:
-          - name:M
-          - name:P
-          - name:Q
-          - name:R
-          - name:S
+          - name: M
+          - name: P
+          - name: Q
+          - name: R
+          - name: S
 Beauty:
   - cat: Toothpate & Toothbrush
     name: Dant Kanti - Herbal Toothpaste
