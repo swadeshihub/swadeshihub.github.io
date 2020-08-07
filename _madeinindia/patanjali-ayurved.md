@@ -9,25 +9,17 @@ tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 products:
   - maincat: 
     - main: Beauty
-      cats: 
-        - cat: Toothpate & Toothbrush
-          subcat:
-          - sub: Toothpaste
-            name: M
-          - name: P
-          - name: Q
-          - name: R
-          - name: S
+      subcat:
+      - sub: Toothpaste
+        name: Dant Kanti - Herbal Toothpaste
+      subcat:
+      - sub: Hair Oil
+        name: Pathanjali Coconut Oil
+      - name: Kesh Kanti - Hair Oil
+      - name: Pathanjali Tejus - Hair Oil
+      - name: Kesh Kanti Protein - Hair Conditioner
+      - name: Kesh Kanti Almond - Hair Conditioner
 Beauty:
-  - cat: Toothpate & Toothbrush
-    name: Dant Kanti - Herbal Toothpaste
-
-  - cat: Hair Oil
-    name: Pathanjali Coconut Oil
-  - name: Kesh Kanti - Hair Oil
-  - name: Pathanjali Tejus - Hair Oil
-  - name: Kesh Kanti Protein - Hair Conditioner
-  - name: Kesh Kanti Almond - Hair Conditioner
 
   - cat: Face Wash
     name: Saundarya Face Wash
