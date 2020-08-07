@@ -28,14 +28,6 @@ font: macro
       <div class="content" id="js-list">
     <form class="searchbar">
       <fieldset class="searchbar-group">
-        <label for="food">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="food" value="Food Products">
-          <span class="searchbar-button">Food Products</span>
-        </label>
-        <label for="beauty">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="beauty" value="Beauty Products">
-          <span class="searchbar-button">Beauty Products</span>
-        </label>
       {% for p in page.products %}
         {% for mc in p.maincat %}
           {% if mc.main %}
