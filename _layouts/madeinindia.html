@@ -47,14 +47,14 @@ font: macro
       </ul>
       <ul>
     {% for p in page.products %}
-    <li>{{ p }}</li>
-    <li>{{ p.maincat }}</li>
-    <li>{{ p.maincat.subcat }}</li>
-      {% if p.main %}
-        {% assign main = p.main | where: "lang", page.lang %}
-      {% endif %}
 
-      {% for cat in p %}
+      {% for maincat in p %}
+        {% if maincat.main %}
+          {% assign main = p.main | where: "lang", page.lang %}
+        {% endif %}
+        <li>{{ maincat }}</li>
+        {% for subcat in maincat %}
+          <li>{{ subcat.sub }}</li>
           <article class="list-recipe">
               <div class="list-image" style="height:20px;"></div>
               <div class="list-body">
@@ -69,6 +69,7 @@ font: macro
                  </ul>
               </div>
           </article>
+        {% endfor %}
       {% endfor %}
     {% endfor %}
       </ul>
