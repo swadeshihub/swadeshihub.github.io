@@ -19,6 +19,24 @@ products:
       - name: Pathanjali Tejus - Hair Oil
       - name: Kesh Kanti Protein - Hair Conditioner
       - name: Kesh Kanti Almond - Hair Conditioner
+  - maincat: 
+    - main:Food
+      subcat:
+      - sub: Energy Drinks
+        name: Patanjali Amla Juice - Immunity Booster
+
+      - name: Divya Peya Herbal Tea - For Weight Loss
+      - name: Aloe Vera Juice - For Weight Loss
+
+      - name: Ashwagandha Churna - For Weight Gain
+      - name: Patanjali Chyawanprash - Milk Powder
+      - name: Badam Pak - For Weight Gain
+      - name: Shatavar Churna - For Weight Gain
+
+    - subcat:
+      - sub: Others
+        name: Patanjali Honey
+      - name: Patanjali Ghee
 Beauty:
 
   - cat: Face Wash
