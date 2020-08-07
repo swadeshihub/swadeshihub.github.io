@@ -6,6 +6,9 @@ image: true
 time:
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
+products:
+  - maincat: 
+    - name: Dant Kanti - Herbal Toothpaste
 Beauty:
   - cat: Toothpate & Toothbrush
     name: Dant Kanti - Herbal Toothpaste
