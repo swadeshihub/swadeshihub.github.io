@@ -34,7 +34,6 @@ font: macro
         {% if mc.main %}
           {% assign main = mc.main | where: "lang", page.lang %}
         {% endif %}
-        <li class="list-recipe">
           <article class="list-recipe">
             <div class="list-image" style="height:20px;"></div>
             <div class="list-body">
@@ -49,7 +48,6 @@ font: macro
               </ul>
             </div>
           </article>
-        </li>
       {% endfor %}
     {% endfor %}
       </ul>
