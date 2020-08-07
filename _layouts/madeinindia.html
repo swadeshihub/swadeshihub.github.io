@@ -51,11 +51,11 @@ font: macro
     {% for p in page.products %}
     <li>{{ p }}</li>
 
-      {% for mc in p %}
+      {% for mc in p.maincat %}
         {% if mc.main %}
           {% assign main = mc.main | where: "lang", page.lang %}
         {% endif %}
-        <li>{{ mc.maincat }}</li>
+        <li>{{ mc }}</li>
         <li>{{ mc.sub }}</li>
         <li>{{ mc.subcat }}</li>
         {% for sc in mc %}
