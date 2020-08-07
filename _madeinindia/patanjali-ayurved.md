@@ -20,7 +20,7 @@ products:
       - name: Kesh Kanti Protein - Hair Conditioner
       - name: Kesh Kanti Almond - Hair Conditioner
   - maincat: 
-    - main:Food
+    - main: Food
       subcat:
       - sub: Energy Drinks
         name: Patanjali Amla Juice - Immunity Booster

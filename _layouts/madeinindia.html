@@ -47,6 +47,7 @@ font: macro
       </ul>
       <ul>
     {% for p in page.products %}
+    <li>{{ p }}</li>
 
       {% for mc in p %}
         {% if mc[0].main %}
