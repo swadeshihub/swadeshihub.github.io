@@ -19,6 +19,13 @@ products:
       - name: Pathanjali Tejus - Hair Oil
       - name: Kesh Kanti Protein - Hair Conditioner
       - name: Kesh Kanti Almond - Hair Conditioner
+    - subcat:
+      - sub: Face Wash
+        name: Saundarya Face Wash
+      - name: Lemon Honey Face Wash
+      - name: Aloe Vera Gel
+      - name: Aloe Vera Kanti Body Cleanser - Soap
+      - name: Patanjali Beauty Cream
   - maincat: 
     - main: Food
       subcat:
@@ -37,32 +44,6 @@ products:
       - sub: Others
         name: Patanjali Honey
       - name: Patanjali Ghee
-Beauty:
-
-  - cat: Face Wash
-    name: Saundarya Face Wash
-  - name: Lemon Honey Face Wash
-  - name: Aloe Vera Gel
-  - name: Aloe Vera Kanti Body Cleanser - Soap
-  - name: Patanjali Beauty Cream
-
-  - cat: Patanjali Baby Care Products
-
-Food:
-  - cat: Energy Drinks
-    name: Patanjali Amla Juice - Immunity Booster
-
-  - name: Divya Peya Herbal Tea - For Weight Loss
-  - name: Aloe Vera Juice - For Weight Loss
-
-  - name: Ashwagandha Churna - For Weight Gain
-  - name: Patanjali Chyawanprash - Milk Powder
-  - name: Badam Pak - For Weight Gain
-  - name: Shatavar Churna - For Weight Gain
-
-  - cat: Others
-    name: Patanjali Honey
-  - name: Patanjali Ghee
 ---
 
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
