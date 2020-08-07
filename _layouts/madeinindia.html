@@ -46,18 +46,16 @@ font: macro
     {% endif %}
       </ul>
       <ul>
-
-    <li>{{ page.products }}</li>
     {% for p in page.products %}
-    <li>{{ p }}</li>
 
       {% for mc in p.maincat %}
         {% if mc.main %}
           {% assign main = mc.main | where: "lang", page.lang %}
         {% endif %}
-        <li>{{ mc }}</li>
-        <li>{{ mc.sub }}</li>
-        <li>{{ mc.subcat }}</li>
+        <li>mc *{{ mc }}</li>
+
+        <li>sub *{{ mc.sub }}</li>
+        <li>cat *{{ mc.subcat }}</li>
         {% for sc in mc %}
           <li>{{ sc.main }}</li>
           <li>{{ sc.subcat }}</li>
