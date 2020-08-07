@@ -50,10 +50,12 @@ font: macro
     <li>{{ p }}</li>
 
       {% for mc in p %}
-        {% if mc[0].main %}
-          {% assign main = p.main | where: "lang", page.lang %}
+        {% if mc.main %}
+          {% assign main = mc.main | where: "lang", page.lang %}
         {% endif %}
-        <li>{{ mc }}</li>
+        <li>{{ mc.main }}</li>
+        <li>{{ mc.sub }}</li>
+        <li>{{ mc.subcat }}</li>
         {% for sc in mc %}
           <li>{{ sc.main }}</li>
           <li>{{ sc.subcat }}</li>
