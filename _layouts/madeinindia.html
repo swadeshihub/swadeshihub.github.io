@@ -46,22 +46,28 @@ font: macro
     {% endif %}
       </ul>
       <ul>
-    {% if page.Food %}
+    {% for p in page.products %}
+      {% if p.main %}
+        {% assign main = p.main | where: "lang", page.lang %}
+      {% endif %}
+
+      {% for cat in p %}
           <article class="list-recipe">
               <div class="list-image" style="height:20px;"></div>
               <div class="list-body">
-                <span class="list-category category" style="background:green">Food Products</span>
+                <span class="list-category category" style="background:green">{{ main }} Products</span>
                 <ul>
-                  {% for i in page.Food %}
-                    {% if i.cat %}
-                      <br><h3 class="list-header title"><a href="">{{ i.cat }}</a></h3>
+                  {% for i in cat %}
+                    {% if cat.sub %}
+                      <br><h3 class="list-header title"><a href="">{{ cat.sub }}</a></h3>
                     {% endif %}
                     <li>{{ i.name }}</li>
                   {% endfor %}
                  </ul>
               </div>
           </article>
-    {% endif %}
+      {% endfor %}
+    {% endfor %}
       </ul>
       {% include core/share.html %}
       {% if page.comments %}

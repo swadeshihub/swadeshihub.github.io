@@ -12,7 +12,7 @@ products:
       subcat:
       - sub: Toothpaste
         name: Dant Kanti - Herbal Toothpaste
-      subcat:
+    - subcat:
       - sub: Hair Oil
         name: Pathanjali Coconut Oil
       - name: Kesh Kanti - Hair Oil
