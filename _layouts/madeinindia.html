@@ -47,6 +47,9 @@ font: macro
       </ul>
       <ul>
     {% for p in page.products %}
+    <li>{{ p }}</li>
+    <li>{{ p.maincat }}</li>
+    <li>{{ p.maincat.subcat }}</li>
       {% if p.main %}
         {% assign main = p.main | where: "lang", page.lang %}
       {% endif %}
