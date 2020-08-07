@@ -8,9 +8,12 @@ category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 products:
   - maincat: 
-    - cat: 
-        - subcat:
-          - name: M
+    - main: Beauty
+      cats: 
+        - cat: Toothpate & Toothbrush
+          subcat:
+          - sub: Toothpaste
+            name: M
           - name: P
           - name: Q
           - name: R
