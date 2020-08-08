@@ -4,7 +4,7 @@ tagline:
 ref: carpenter
 image: true
 category: Other Services
-tags: [service, carpenter, wood, furniture, sofa, chair, table, interior, dining, bed, cots]main: Beauty
+tags: [service, carpenter, wood, furniture, sofa, chair, table, interior, dining, bed, cots]
 subcat:
   - name: A
   - name: B
