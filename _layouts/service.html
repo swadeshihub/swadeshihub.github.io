@@ -25,8 +25,8 @@ font: macro
         {% if sc.name %}
           {% assign main = sc.name | where: "lang", page.lang %}
           <label for="{{ main }}">
-            <input class="searchbar-checkbox js-category" type="checkbox" id="{{ main }}" value="{{ main }} Products">
-            <span class="searchbar-button">{{ main }} Products</span>
+            <input class="searchbar-checkbox js-category" type="checkbox" id="{{ main }}" value="{{ main }}">
+            <span class="searchbar-button">{{ main }}</span>
           </label>
         {% endif %}
       {% endfor %}
