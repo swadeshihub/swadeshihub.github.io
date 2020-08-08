@@ -59,7 +59,9 @@ font: macro
                 {% if sc.sub %}
                   <h3 class="list-header title"><a href="">{{ sc.sub }}</a></h3>
                 {% endif %}
-                <li>{{ sc.name }}</li>
+                {% if sc.name %}
+                  <li>{{ sc.name }}</li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>

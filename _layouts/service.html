@@ -1,0 +1,70 @@
+---
+layout: default
+font: macro
+lang: en
+ref: index
+image: true
+exclude: true
+---
+
+<div class="index{% if page.image %} entry-hasBackground{% endif %}">
+  <div class="content-top">
+    {% if page.image %}
+      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg') 2x )"></div>
+      <div class="hero-overlay"></div>
+      {% include core/metabar.html color="white" %}
+    {% else %}
+      {% include core/metabar.html %}
+    {% endif %}
+
+    <header class="content hero">
+      <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ site.tagline }}</h1></a>
+    </header>
+  </div>
+<br><br>
+  <div class="content" id="js-list">
+    <form class="searchbar">
+      <fieldset class="searchbar-group">
+      {% for sc in page.subcat %}
+        {% if sc.name %}
+          {% assign main = sc.name | where: "lang", page.lang %}
+          <label for="{{ main }}">
+            <input class="searchbar-checkbox js-category" type="checkbox" id="{{ main }}" value="{{ main }} Products">
+            <span class="searchbar-button">{{ main }} Products</span>
+          </label>
+        {% endif %}
+      {% endfor %}
+      </fieldset>
+    </form>
+
+    <ul class="list">
+      {% for item in page.carpenters %}
+
+      <li class="list-recipe">
+        <article>
+          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
+            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+            <div class="list-body">
+              <span class="list-category category">{{ item.subcat }}</span>
+              <h3 class="list-header title">{{ item.shopname }}</h3>
+              <ul>
+                <li>Name : <b>{{ item.name }}</b></li>
+                <li>Phone : {{ item.phone }}</li>
+                <li>Email : {{ item.email }}</li>
+                <li>Address : {{ item.address }}</li>
+                <li>City : {{ item.city }}</li>
+                <li>Area Covered : {{ item.areacovered }}</li>
+              </ul>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      {% endfor %}
+    </ul>
+
+  </div>
+</div>
+
+
+{% include core/footer.html %}
