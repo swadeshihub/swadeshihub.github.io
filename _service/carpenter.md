@@ -4,52 +4,36 @@ tagline:
 ref: carpenter
 image: true
 category: Other Services
-tags: [service, carpenter, wood, furniture, sofa, chair, table, interior, dining, bed, cots]
-products:
-  - maincat: 
-    - main: Beauty
-      subcat:
-      - sub: Toothpaste
-      - name: Dant Kanti - Herbal Toothpaste
-    - subcat:
-      - sub: Hair Oil
-      - name: Pathanjali Coconut Oil
-      - name: Kesh Kanti - Hair Oil
-      - name: Pathanjali Tejus - Hair Oil
-      - name: Kesh Kanti Protein - Hair Conditioner
-      - name: Kesh Kanti Almond - Hair Conditioner
-    - subcat:
-      - sub: Face Wash
-      - name: Saundarya Face Wash
-      - name: Lemon Honey Face Wash
-      - name: Aloe Vera Gel
-      - name: Aloe Vera Kanti Body Cleanser - Soap
-      - name: Patanjali Beauty Cream
-  - maincat: 
-    - main: Food
-      subcat:
-      - sub: Energy Drinks
-      - name: Patanjali Amla Juice - Immunity Booster
-
-      - name: Divya Peya Herbal Tea - For Weight Loss
-      - name: Aloe Vera Juice - For Weight Loss
-
-      - name: Ashwagandha Churna - For Weight Gain
-      - name: Patanjali Chyawanprash - Milk Powder
-      - name: Badam Pak - For Weight Gain
-      - name: Shatavar Churna - For Weight Gain
-
-    - subcat:
-      - sub: Others
-      - name: Patanjali Honey
-      - name: Patanjali Ghee
+tags: [service, carpenter, wood, furniture, sofa, chair, table, interior, dining, bed, cots]main: Beauty
+subcat:
+  - name: A
+  - name: B
+carpenters:
+  - shopname: carp1
+    name: abc
+    phone: +91 9845552498
+    email: dashinndecor@gmail.com
+    address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
+    city: Bengaluru
+    areacovered: Bengaluru City
+    subcat: A
+  - shopname: carp2
+    name: abc
+    phone: +91 9845552498
+    email: dashinndecor@gmail.com
+    address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
+    city: Bengaluru
+    areacovered: Bengaluru City
+    subcat: B
+  - shopname: carp3
+    name: abc
+    phone: +91 9845552498
+    email: dashinndecor@gmail.com
+    address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
+    city: Bengaluru
+    areacovered: Bengaluru City
+    subcat: A
 ---
-
-  Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
-
-  The company manufactures mineral and herbal products.
-
-  According to CLSA and HSBC, Patanjali is the fastest growing FMCG company in India. It is valued at ₹3,000 crore (equivalent to ₹35 billion or US$490 million in 2019) and some predict revenues of ₹5,000 crore (US$700 million) for the fiscal 2015–16. Patanjali declared its annual turnover of the year 2016–17 to be estimated ₹10,216 crore (US$1.4 billion). It was listed 13th in the list of India's most trusted brands (The Brand Trust Report) as of 2018, and ranks first in FMCG category.
 
 ---
 
