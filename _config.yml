@@ -69,6 +69,8 @@ collections:
     output: true
   madeinindia:
     output: true
+  service:
+    output: true
   simple:
     output: true
 
