@@ -68,20 +68,16 @@ font: macro
   function show_details(id) { 
     var substring = id.substr(4,);
     alert(id);
-    alert(".contact"+substring);
-    alert("#btn"+substring);
-    document.querySelectorAll('.contact'+substring).style.display = 'block';
-    document.querySelectorAll('#hbtn'+substring).style.display = 'block';  
+    document.querySelectorAll('.contact'+substring).style.display = 'inline';
+    document.querySelectorAll('#hbtn'+substring).style.display = 'inline';  
     document.querySelectorAll('#sbtn'+substring).style.display = 'none';
   }
   function hide_details(id) { 
     var substring = id.substr(4,);
     alert(id);
-    alert(".contact"+substring);
-    alert("#btn"+substring);
     document.querySelectorAll('.contact'+substring).style.display = 'none';
     document.querySelectorAll('#hbtn'+substring).style.display = 'none';
-    document.querySelectorAll('#sbtn'+substring).style.display = 'block';
+    document.querySelectorAll('#sbtn'+substring).style.display = 'inline';
   }
 </script>
 
