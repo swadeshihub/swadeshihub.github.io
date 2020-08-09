@@ -67,12 +67,16 @@ font: macro
 <script type="text/javascript">
   function show_details(id) { 
     var substring = id.substr(3,);
+    alert(id);
+    alert(substring);
     document.querySelectorAll('.contact'+substring).style.display = 'block';
     document.querySelectorAll('#hbtn'+substring).style.display = 'block';  
     document.querySelectorAll('#sbtn'+substring).style.display = 'none';
   }
   function hide_details(id) { 
     var substring = id.substr(3,);
+    alert(id);
+    alert(substring);
     document.querySelectorAll('.contact'+substring).style.display = 'none';
     document.querySelectorAll('#hbtn'+substring).style.display = 'none';
     document.querySelectorAll('#sbtn'+substring).style.display = 'block';
