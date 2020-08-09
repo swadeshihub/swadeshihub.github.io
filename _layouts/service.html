@@ -45,11 +45,13 @@ font: macro
               <h3 class="list-header title" style="color:#FFD700">{{ item.shopname }}</h3>
               <ul>
                 <li>Name : <b style="color:#FF9933">{{ item.name }}</b></li>
-                <li>Phone : <b style="color:#FF9933">{{ item.phone }}</b></li>
-                <li>Email : <b style="color:red">{{ item.email }}</b></li>
-                <li>Address : <b style="color:red">{{ item.address }}</b></li>
-                <li>City : <b style="color:red">{{ item.city }}</b></li>
                 <li>Area Covered : <b style="color:#FF9933">{{ item.areacovered }}</b></li>
+                <li class="contact{{ item.id }}" style="display : none;">Phone : <b style="color:#FF9933">{{ item.phone }}</b></li>
+                <li class="contact{{ item.id }}" style="display : none;">Email : <b style="color:red">{{ item.email }}</b></li>
+                <li class="contact{{ item.id }}" style="display : none;">Address : <b style="color:red">{{ item.address }}</b></li>
+                <li class="contact{{ item.id }}" style="display : none;">City : <b style="color:red">{{ item.city }}</b></li>
+                <li><button id="sbtn{{ item.id }}" style="color:green" onclick="show_details(this.id);">Show Details</button></li>
+                <li><button id="hbtn{{ item.id }}" style="display : none;color:green" onclick="hide_details(this.id);">Hide Details</button></li>
               </ul>
             </div>
           </a>
@@ -62,5 +64,19 @@ font: macro
   </div>
 </div>
 
+<script type="text/javascript">
+  function show_details(id) { 
+    var substring = id.substr(3,);
+    document.querySelectorAll('.contact'+substring).style.display = 'block';
+    document.querySelectorAll('#hbtn'+substring).style.display = 'block';  
+    document.querySelectorAll('#sbtn'+substring).style.display = 'none';
+  }
+  function hide_details(id) { 
+    var substring = id.substr(3,);
+    document.querySelectorAll('.contact'+substring).style.display = 'none';
+    document.querySelectorAll('#hbtn'+substring).style.display = 'none';
+    document.querySelectorAll('#sbtn'+substring).style.display = 'block';
+  }
+</script>
 
 {% include core/footer.html %}

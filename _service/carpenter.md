@@ -10,6 +10,7 @@ subcat:
   - name: B
 carpenters:
   - shopname: carp1
+    id: 001
     name: abc
     phone: +91 9845552498
     email: dashinndecor@gmail.com
@@ -18,6 +19,7 @@ carpenters:
     areacovered: Bengaluru City
     subcat: A
   - shopname: carp2
+    id: 002
     name: abc
     phone: +91 9845552498
     email: dashinndecor@gmail.com
@@ -26,6 +28,7 @@ carpenters:
     areacovered: Bengaluru City
     subcat: B
   - shopname: carp3
+    id: 003
     name: abc
     phone: +91 9845552498
     email: dashinndecor@gmail.com
