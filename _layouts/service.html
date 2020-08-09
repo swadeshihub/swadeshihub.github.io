@@ -51,7 +51,7 @@ font: macro
                 <li class="contact{{ item.id }}" style="display : none;">Address : <b style="color:red">{{ item.address }}</b></li>
                 <li class="contact{{ item.id }}" style="display : none;">City : <b style="color:red">{{ item.city }}</b></li>
                 <li><button id="sbtn{{ item.id }}" class="searchbar-button" style="color:green" onclick="show_details(this.id);">Show Details</button></li>
-                <li><button id="hbtn{{ item.id }}" class="searchbar-button" style="display : none;color:green" onclick="hide_details(this.id);">Hide Details</button></li>
+                <li><button id="hbtn{{ item.id }}" class="searchbar-button" style="display : none;color:blue" onclick="hide_details(this.id);">Hide Details</button></li>
               </ul>
             </div>
           <!-- </a> -->
@@ -69,7 +69,9 @@ font: macro
     var substring = id.substr(4,);
     alert(id+"show");
     document.getElementsByClassName('contact'+substring).style.display = 'inline';
-    document.getElementById('hbtn'+substring).style.display = 'inline';  
+    alert(document.getElementsByClassName('contact'+substring).html);
+    document.getElementById('hbtn'+substring).style.display = 'inline';
+    alert(document.getElementById('hbtn'+substring).html);  
     document.getElementById('sbtn'+substring).style.display = 'none';
   }
   function hide_details(id) { 
