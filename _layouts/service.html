@@ -38,7 +38,7 @@ font: macro
 
       <li class="list-recipe">
         <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
+          <!-- <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}"> -->
             <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
             <div class="list-body">
               <span class="list-category category">{{ item.subcat }}</span>
@@ -50,11 +50,11 @@ font: macro
                 <li class="contact{{ item.id }}" style="display : none;">Email : <b style="color:red">{{ item.email }}</b></li>
                 <li class="contact{{ item.id }}" style="display : none;">Address : <b style="color:red">{{ item.address }}</b></li>
                 <li class="contact{{ item.id }}" style="display : none;">City : <b style="color:red">{{ item.city }}</b></li>
-                <li><button id="sbtn{{ item.id }}" style="color:green" onclick="show_details(this.id);">Show Details</button></li>
-                <li><button id="hbtn{{ item.id }}" style="display : none;color:green" onclick="hide_details(this.id);">Hide Details</button></li>
+                <li><button id="sbtn{{ item.id }}" class="searchbar-button" style="color:green" onclick="show_details(this.id);">Show Details</button></li>
+                <li><button id="hbtn{{ item.id }}" class="searchbar-button" style="display : none;color:green" onclick="hide_details(this.id);">Hide Details</button></li>
               </ul>
             </div>
-          </a>
+          <!-- </a> -->
         </article>
       </li>
 
