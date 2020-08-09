@@ -22,7 +22,6 @@ carpenters:
     id: 002
     name: abc
     phone: +91 9845552498
-    email: dashinndecor@gmail.com
     address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
     city: Bengaluru
     areacovered: Bengaluru City
@@ -31,7 +30,6 @@ carpenters:
     id: 003
     name: abc
     phone: +91 9845552498
-    email: dashinndecor@gmail.com
     address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
     city: Bengaluru
     areacovered: Bengaluru City
@@ -39,5 +37,3 @@ carpenters:
 ---
 
 ---
-
-_From [Wikipedia](https://en.wikipedia.org/wiki/Patanjali_Ayurved)._
