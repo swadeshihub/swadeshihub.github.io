@@ -3,7 +3,7 @@ title: 'Carpenter'
 tagline: 
 ref: carpenter
 image: true
-category: Other Services
+category: Service Spot
 tags: [service, carpenter, wood, furniture, sofa, chair, table, interior, dining, bed, cots]
 subcat:
   - name: A
