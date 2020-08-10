@@ -1,6 +1,6 @@
 ---
-title: '4 Wheeler'
-ref: 4-wheeler
+title: '4 wheeler'
+ref: 4-Wheeler
 image: true
 time: 
 category: Category

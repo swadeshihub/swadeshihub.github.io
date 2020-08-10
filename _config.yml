@@ -21,7 +21,7 @@ dark_theme: true
 title: Swadeshi Hub
 tagline: ''
 description: 'A Hub of Swadeshi - Made in India Products'
-keywords: 'swadeshi, made in india, india, local'
+keywords: 'swadeshi, made in india, india, local, service'
 url: https://swadeshihub.github.io
 baseurl: /
 assets: /assets
@@ -69,6 +69,8 @@ collections:
     output: true
   madeinindia:
     output: true
+  service:
+    output: true
   simple:
     output: true
 
@@ -99,6 +101,13 @@ defaults:
       type: vocalforlocal
     values:
       layout: vocalforlocal
+      lang: en
+      permalink: /:title/
+  - scope:
+      path: ''
+      type: service
+    values:
+      layout: service
       lang: en
       permalink: /:title/
   - scope:

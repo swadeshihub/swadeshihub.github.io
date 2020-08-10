@@ -25,47 +25,81 @@ font: macro
 
   <div class="content-bottom">
     <div class="content content-recipe content-style">
+      <div class="content" id="js-list">
+    <form class="searchbar">
+      <fieldset class="searchbar-group">
+      {% for p in page.products %}
+        {% for mc in p.maincat %}
+          {% if mc.main %}
+            {% assign main = mc.main | where: "lang", page.lang %}
+            <label for="{{ main }}">
+              <input class="searchbar-checkbox js-category" type="checkbox" id="{{ main }}" value="{{ main }} Products">
+              <span class="searchbar-button">{{ main }} Products</span>
+            </label>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </fieldset>
+    </form>
+
+    <ul class="list">
+    {% for p in page.products %}
+
+      {% for mc in p.maincat %}
+        {% if mc.main %}
+          {% assign main = mc.main | where: "lang", page.lang %}
+        {% endif %}
+      <li class="list-recipe">
+        <article>
+          <div class="list-image" style="height:20px;"></div>
+          <div class="list-body">
+            <span class="list-category category" style="background:green">{{ main }} Products</span>
+            <ul>
+              {% for sc in mc.subcat %}
+                {% if sc.sub %}
+                  <h3 class="list-header title"><a href="">{{ sc.sub }}</a></h3>
+                {% endif %}
+                {% if sc.name %}
+                  <li>{{ sc.name }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    {% endfor %}
+    </ul>
+
+  </div>
 
       {{ content }}
-      <ul>
-    {% if page.Beauty %}
-          <article class="list-recipe">
-              <div class="list-image" style="height:20px;"></div>
-              <div class="list-body">
-                <span class="list-category category" style="background:green">Beauty Products</span>
-                <ul>
-                  {% for i in page.Beauty %}
-                    {% if i.cat %}
-                      <br><h3 class="list-header title"><a href="">{{ i.cat }}</a></h3>
-                    {% endif %}
-                    <li>{{ i.name }}</li>
-                  {% endfor %}
-                 </ul>
-              </div>
-          </article>
-    {% endif %}
-      </ul>
-      <ul>
-    {% if page.Food %}
-          <article class="list-recipe">
-              <div class="list-image" style="height:20px;"></div>
-              <div class="list-body">
-                <span class="list-category category" style="background:green">Food Products</span>
-                <ul>
-                  {% for i in page.Food %}
-                    {% if i.cat %}
-                      <br><h3 class="list-header title"><a href="">{{ i.cat }}</a></h3>
-                    {% endif %}
-                    <li>{{ i.name }}</li>
-                  {% endfor %}
-                 </ul>
-              </div>
-          </article>
-    {% endif %}
-      </ul>
-      {% include core/share.html %}
+      <!-- <ul>
+    {% for p in page.products %}
 
-{% if page.comments %}
+      {% for mc in p.maincat %}
+        {% if mc.main %}
+          {% assign main = mc.main | where: "lang", page.lang %}
+        {% endif %}
+          <article class="list-recipe">
+            <div class="list-image" style="height:20px;"></div>
+            <div class="list-body">
+              <span class="list-category category" style="background:green">{{ main }} Products</span>
+              <ul>
+                {% for sc in mc.subcat %}
+                  {% if sc.sub %}
+                    <br><h3 class="list-header title"><a href="">{{ sc.sub }}</a></h3>
+                  {% endif %}
+                  <li>{{ sc.name }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+      {% endfor %}
+    {% endfor %}
+      </ul> -->
+      {% include core/share.html %}
+      {% if page.comments %}
 <script id="dsq-count-scr" src="//swadeshihub-github-io.disqus.com/count.js" async></script>
 <div id="disqus_thread"></div>
 <script>
@@ -75,11 +109,12 @@ font: macro
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
+  this.page.url = "{{ site.url }}{{ page.url }}";  /* Replace PAGE_URL with your page's canonical URL variable */
+  
+  this.page.identifier = "{{ site.url }}{{ page.url }}"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+  
+};(function() { /* DON'T EDIT BELOW THIS LINE */
+  
 var d = document, s = d.createElement('script');
 s.src = 'https://swadeshihub-github-io.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
@@ -88,7 +123,6 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
-
     </div>
 
     {% include core/footer.html %}

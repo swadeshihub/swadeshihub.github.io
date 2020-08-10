@@ -12,7 +12,7 @@ exclude: true
     {% if page.image %}
       <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpeg') 2x )"></div>
       <div class="hero-overlay"></div>
-      {% include core/metabar.html color="-white" %}
+      {% include core/metabar.html color="white" %}
     {% else %}
       {% include core/metabar.html %}
     {% endif %}
@@ -112,6 +112,7 @@ exclude: true
       {% assign cat = site.categories | where: "lang", page.lang %}
       {% assign vocalforlocal = site.vocalforlocal | where: "lang", page.lang %}
       {% assign madeinindia = site.madeinindia | where: "lang", page.lang %}
+      {% assign service = site.service | where: "lang", page.lang %}
       {% for page in cat %}
 
       <li class="list-recipe">
@@ -148,6 +149,23 @@ exclude: true
 
       {% endfor %}
       {% for page in vocalforlocal %}
+
+      <li class="list-recipe">
+        <article>
+          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
+            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/vocal-for-local/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+            <div class="list-body">
+              <span class="list-category category">{{ page.category }}</span>
+              <h3 class="list-header title">{{ page.title }}</h3>
+              {% include custom/meta.html %}
+              <span class="list-ingredients ingredients products" data-products="{% for i in page.products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
+            </div>
+          </a>
+        </article>
+      </li>
+
+      {% endfor %}
+      {% for page in service %}
 
       <li class="list-recipe">
         <article>
