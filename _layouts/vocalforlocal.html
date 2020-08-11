@@ -2,11 +2,8 @@
 layout: default
 font: macro
 ---
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 .mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
 </style>
 
 <article class="recipe{% if page.contact %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
@@ -23,6 +20,9 @@ font: macro
       <h3 class="">{{ page.tagline }}</h3>
       {% include custom/meta.html %}
       <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/vocal-for-local/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}" style="width:90%;">
+      <img class="mySlides" src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/2-wheeler.jpeg" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/4-wheeler.jpeg" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/camera.jpeg" style="width:100%">
     </header>
     
   </div>
@@ -31,11 +31,8 @@ font: macro
 
   <div class="content-bottom">
     <div class="content content-recipe content-style">
-      
-<div class="w3-content w3-display-container" style="max-width:800px">
-  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+
+<!-- <div class="w3-content w3-display-container" style="max-width:800px">
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -43,7 +40,7 @@ font: macro
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
   </div>
-</div>
+</div> -->
 
       {{ content }}
       <ul>
