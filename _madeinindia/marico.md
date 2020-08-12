@@ -1,176 +1,84 @@
 ---
-title: 'Patanjali Ayurved'
+title: 'Marico'
 comments: true
-ref: pathanjali
+ref: marico
 image: true
 time:
 category: Made in India
-tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
+tags: [food, hair, kitchen, consumer, beauty, health]
 products:
   - maincat: 
-    - main: Ready Made Food
+    - main: Food
       subcat:
-      - sub: Oats & Flakes
-      - name: Oats
-      - name: Masala Oats
-      - name: Veggie Delight Oats
-      - name: Tomato Oats
-      - name: Pudina Oats
-      - name: Choco Flakes
-      - name: Corn Flakes Mix
-      - name: Chocolious Choco Fill Pillow
-
-    - subcat:
-      - sub: Biscuits / Cookies / Rusk
-      - name: Nariyal Biscuit
-      - name: Marie Biscuit
-      - name: Dhoodh Biscuits 
-      - name: Cream Feast Elaichi Biscuits
-      - name: Cream Feast Chocolate Biscuits
-      - name: Top Lite Biscuit
-      - name: Twisty Tasty Biscuit
-      - name: Jeera Cookies
-      - name: Butter cookies
-      - name: Muesli Fruit & Nut
-      - name: Suji Elaichi Rusk
-      - name: Atta dhoodh Rusk
-
-    - subcat:
-      - sub: Spicy Snacks
-      - name: Aaloo Bhujiya
-      - name: Navratana Mixture
-      - name: Moong Dal Namkeen
-      - name: Peanuts Namkeen
-      - name: Channa Dal Namkeen
-      - name: Soyavita Soya Katori
-      - name: Chana Papad
-      - name: Kali Mirch Papad
-      - name: Soya Peri Peri Chips
-      - name: Jalapeno Soya chips
+      - sub: Oats
+      - name: Saffola Oats
+      - name: Saffola Masala Oats
 
   - maincat: 
     - main: Beauty
       subcat:
-      - sub: Soaps / Shampoos / Hand wash
-      - name: Haldi Chandana Kanti Body Soap
-      - name: Coconut Hair Wash
-      - name: Kesh Kanti Natural Shampoo
-      - name: Rose Body Soap
-      - name: Damage Control Hair Conditioner
-      - name: Herbal Hand Wash
+      - sub: Body Lotion
+      - name: Parachute Advanced Body lotion
+      - name: Parachute Soft Touch Body lotion
+      - name: Parachute Cocolipid & Water Lily Body Lotion
+      - name: Parachute Deep Nourish Body Lotion
+      - name: Kaya Youth Oxy Infusion Day Cream
 
     - subcat:
-      - sub: Cosmetics
-      - name: Kesh Kanti
-      - name: Moisturizer Cream
-      - name: Tejus Body Lotion
-      - name: Aloe Vera Gel
-      - name: Boro Safe Antiseptic cream
-      - name: Body Ubtan
-      - name: Sun Screen Cream
-      - name: Anti Wrinkle Cream
-      - name: Herbal Suhag Teeka
-      - name: Aloe Vera Moistrizing Cream
-      - name: Aastha Premium Roli / KumKum
+      - sub: Face wash
+      - name: Kaya Youth Face Wash
 
     - subcat:
-      - sub: Toothpate & Toothbrush
-      - name: Dant Kanti
+      - sub: Male Grooming & Styling
+      - name: Set Wet Hair Gel
+      - name: Set Wet Hair Wax
+      - name: Set Wet Deodorants 
+      - name: Set Wet Studio X Range
+      - name: Parachute Advanced Men Aftershower Hair Cream
 
     - subcat:
-      - sub: Hair Oil
-      - name: Kesh Kanti Amla Hair oil
-      - name: Kesh Kanti Anit Dandruff Hair Oil
-      - name: Coconut Hair Oil
-      - name: Amla Hair Oil
-      - name: Almond Hail Oil
-
-    - subcat:
-      - sub: Face Creams & Face Wash
-      - name: Saundrya Aloe Vera Gel
-      - name: Apricot Face Scrub
-      - name: Multain Mitti Face Pack
-      - name: Rose Face Wash
-      - name: Neem Tulsi Face Wash
-      - name: Lemon Honey Face Wash
-      - name: Honey Orange Face Wash
-      - name: Activated Carbon Facial Foam
-      - name: Saundrya Aloe Vera Gel Kesari
+      - sub: Hair Care
+      - name: Parachute Jasmine Hair Oil
+      - name: Parachute Ayurvedic Hair Oil
+      - name: Parachute Aloe Vera Hair Oil
+      - name: Parachute Advansed Gold Hair Oil 
+      - name: Parachute Hot Oil
+      - name: Parachute Coconut Creme Oil
+      - name: Parachute Coconut Serum Oil
+      - name: Parachute Creme Shampoo
+      - name: Parachute Scalp Therapie
+      - name: Parachute Advanced Men Hair Cream
+      - name: Nihar Naturals Shanti Badam Amla Hair Oil
+      - name: Nihar Naturals Sarson Hair Oil
+      - name: Nihar Naturals Extra Care Hair Oil
+      - name: Nihar Naturals Coconut Hair Oil
+      - name: Nihar Perfumed Coconut Hari Oil
+      - name: Nihar Extra Care Hair Fall Control Oil
+      - name: Nihar Gold Coconut Hair Oil
+      - name: Hair And Care Hair Oil
+      - name: Livon Hair Serum 
+      - name: Livon hair Gain Tonic
+      - name: True Roots Botanical Hair Tonic
+      - name: Coco Soul Vargin Coconut Oil
 
   - maincat: 
     - main: Kitchen
       subcat:
-      - sub: Instant Masala
-      - name: Chhole Masala
-      - name: Sabzi Masala
-      - name: Ajowan seed
-      - name: Cumin Whole
-      - name: Black pepper Powder
-      - name: Garam Masala Powder
-      - name: Chaat Masala
-      - name: Black pepper Whole
-      - name: Turmeric Powder
-      - name: Coriander Powder
-      - name: Red chilli Powder
-      - name: Hing
+      - sub: Daily Essentials
+      - name: Saffola Salt Plus
 
     - subcat:
-      - sub: Pickles
-      - name: Garlic Pickle
-      - name: Lishoda Pickle
-      - name: Kathal Pickle
-      - name: Ginger Pickle
-      - name: Lemon Pickle
-      - name: Amla Pickle
-      - name: Mixed Pickle
+      - sub: Edible Oils
+      - name: Safolla Gold
+      - name: Safolla Active
+      - name: Safolla Total
+      - name: Safolla Tasty
 
   - maincat: 
-    - main: Health Care
-      subcat: 
-      - sub: Medicinal Products
-      - name: Ashwagandha Churna - For Weight Gain
-      - name: Badam Pak - For Weight Gain
-      - name: Shatavar Churna - For Weight Gain
-      - name: Patanjali Chyawanprash - Milk Powder
-      - name: Divya Peya Herbal Tea - For Weight Loss
-      - name: Harad Murabba
-      - name: Amla Murabba
-      - name: Bel Murabba
-      - name: Natural Honey
-      - name: Shatavar
-      - name: Swet Mushli
-      - name: Tulsi Ghan Vati
-      - name: Ashvangandha Capsule
-
-    - subcat:
-      - sub: Digestive Care
-      - name: Pachak Hing Goli
-      - name: Pachak JalJeera
-      - name: Pachak Ajwain With Aloevera
-      - name: Pachak Shodhit haarad
-      - name: Pachak Hing Peda
-      - name: Pachak Anardana
-
-    - subcat:
-      - sub: Health & Wellness
-      - name: Kesar
-      - name: Amla Amrit
-      - name: Moosli Pak
-      - name: Amrit Rasayan
-      - name: Wheat Grass Powder
-
-    - subcat:
-      - sub: Herbal Juice
-      - name: Aloe Vera Juice - For Weight Loss
-      - name: Giloy Juice - Immunity Booster
-      - name: Tulsi Panchang Juice
-      - name: Power Vita Milk Powder
-      - name: Arun Amla Juice
-      - name: Amla-Alovera wheet Grass Juice
-      - name: Aloevera Juice With Fiber
-      - name: Brahmi Sharbat
-      - name: Tulsi Panchang Juice
-      - name: Khus Sharbat
+    - main: Others
+      subcat:
+      - sub: Dietary Use
+      - name: Saffola Active Slimming Nutri Shake
 ---
 
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
