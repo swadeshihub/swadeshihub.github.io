@@ -3,7 +3,7 @@ title: 'Patanjali Ayurved'
 comments: true
 ref: pathanjali
 image: true
-link: https://www.patanjaliayurved.net/search/
+url: https://www.patanjaliayurved.net/search/
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 products:

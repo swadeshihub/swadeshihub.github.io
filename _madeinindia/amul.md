@@ -1,183 +1,148 @@
 ---
-title: 'Patanjali Ayurved'
+title: 'Amul'
 comments: true
-ref: pathanjali
+ref: amul
 image: true
-time:
+url: https://www.bigbasket.com/ps/?q=amul%20
 category: Made in India
-tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
+tags: [milk, cheese, butter, food, consumer, delicious, bread, drinks, snack, cattle, fodder]
 products:
   - maincat: 
-    - main: Ready Made Food
+    - main: Milk Products
       subcat:
-      - sub: Oats & Flakes
-      - name: Oats
-      - name: Masala Oats
-      - name: Veggie Delight Oats
-      - name: Tomato Oats
-      - name: Pudina Oats
-      - name: Choco Flakes
-      - name: Corn Flakes Mix
-      - name: Chocolious Choco Fill Pillow
+      - sub: Amul Milk
+      - name: Desi A2 Cow Milk
+      - name: Cow Milk
+      - name: Amul Gold
+      - name: Amul Taaza
+      - name: Slim Trim Milk
+      - name: Chai Maza
+      - name: Amul Shakthi
+      - name: Amul Diamond
+      - name: T-Special Milk
+      - name: Amul Buffalo Milk
+      - name: Camel Milk
+      - name: Lactose Free Milk
 
     - subcat:
-      - sub: Biscuits / Cookies / Rusk
-      - name: Nariyal Biscuit
-      - name: Marie Biscuit
-      - name: Dhoodh Biscuits 
-      - name: Cream Feast Elaichi Biscuits
-      - name: Cream Feast Chocolate Biscuits
-      - name: Top Lite Biscuit
-      - name: Twisty Tasty Biscuit
-      - name: Jeera Cookies
-      - name: Butter cookies
-      - name: Muesli Fruit & Nut
-      - name: Suji Elaichi Rusk
-      - name: Atta dhoodh Rusk
+      - sub: Butter
+      - name: Unsalted Butted
+      - name: Salted Butter
 
     - subcat:
-      - sub: Spicy Snacks
-      - name: Aaloo Bhujiya
-      - name: Navratana Mixture
-      - name: Moong Dal Namkeen
-      - name: Peanuts Namkeen
-      - name: Channa Dal Namkeen
-      - name: Soyavita Soya Katori
-      - name: Chana Papad
-      - name: Kali Mirch Papad
-      - name: Soya Peri Peri Chips
-      - name: Jalapeno Soya chips
+      - sub: Cheese
+      - name: Amul Processed Cheese
+      - name: Emmental Cheese
+      - name: Gouda Cheese
+      - name: Mozzarella Cheese
+      - name: Diced Blend Cheese
+      - name: Diced Cheddar Cheese
+      - name: Pizza Cheese
+
+    - subcat:
+      - sub: Other Milk Products
+      - name: Amul Ice Creams
+      - name: Amul  Paneer
+      - name: Amul Dahi
+      - name: Amul Ghee
+      - name: Butter Milk
+
+    - subcat:
+      - sub: Cream
+      - name: Fresh Cream
+      - name: Amul Whipping
+      - name: Sour Cream
+
+    - subcat:
+      - sub: Milk Powders
+      - name: Amul T- Special
+      - name: Spray
+      - name: Amulya
+      - name: Sagar Skimmed Milk Powder
+      - name: Sagar Tea Coffee Whitener
 
   - maincat: 
-    - main: Beauty
+    - main: Other Products
       subcat:
-      - sub: Soaps / Shampoos / Hand wash
-      - name: Haldi Chandana Kanti Body Soap
-      - name: Coconut Hair Wash
-      - name: Kesh Kanti Natural Shampoo
-      - name: Rose Body Soap
-      - name: Damage Control Hair Conditioner
-      - name: Herbal Hand Wash
+      - sub: Other Consumables
+      - name: Roti Softener
+      - name: Amul Panchamrit (Mix Of Cow Milk,Curd,Honey,Sugar,Ghee)
+      - name: Amul Chocolates
+      - name: Amul Mithai Mate
 
     - subcat:
-      - sub: Cosmetics
-      - name: Kesh Kanti
-      - name: Moisturizer Cream
-      - name: Tejus Body Lotion
-      - name: Aloe Vera Gel
-      - name: Boro Safe Antiseptic cream
-      - name: Body Ubtan
-      - name: Sun Screen Cream
-      - name: Anti Wrinkle Cream
-      - name: Herbal Suhag Teeka
-      - name: Aloe Vera Moistrizing Cream
-      - name: Aastha Premium Roli / KumKum
+      - sub: Amul Mithai (Sweets)
+      - name: Amul Gulab Jamun
+      - name: Shrikhand
+      - name: Kaju Kathri
+      - name: Rabri
+      - name: AvsarLadoo  
+      - name: Basundi
 
     - subcat:
-      - sub: Toothpate & Toothbrush
-      - name: Dant Kanti
+      - sub: Beverages & Drinks
+      - name: Pro life Butter Milk
+      - name: Prolife Lassee
+      - name: Amul Lassi
+      - name: Masti Buttermilk
+      - name: Amul PRO Drinks
+      - name: Amul Stamina
+      - name: Kool KoKo
+      - name: Pina ColadaMocktail
+      - name: Vanilla Milk Shake
+      - name: Haldi Doodh
+      - name: Irish Drink Mocktail
+      - name: Kadhai Dhoodh
+      - name: Flovored Milk
+      - name: Kool Cafe
+      - name: Amul Tru
 
     - subcat:
-      - sub: Hair Oil
-      - name: Kesh Kanti Amla Hair oil
-      - name: Kesh Kanti Anit Dandruff Hair Oil
-      - name: Coconut Hair Oil
-      - name: Amla Hair Oil
-      - name: Almond Hail Oil
+      - sub: Snacks
+      - name: Puffles
 
     - subcat:
-      - sub: Face Creams & Face Wash
-      - name: Saundrya Aloe Vera Gel
-      - name: Apricot Face Scrub
-      - name: Multain Mitti Face Pack
-      - name: Rose Face Wash
-      - name: Neem Tulsi Face Wash
-      - name: Lemon Honey Face Wash
-      - name: Honey Orange Face Wash
-      - name: Activated Carbon Facial Foam
-      - name: Saundrya Aloe Vera Gel Kesari
+      - sub: Bread Spread
+      - name: Choco Buttery Spread
+      - name: Safed Makkhan
+      - name: Garlic Butter
+      - name: Delicious Fat Spread
+      - name: Amul Lite
+      - name: Cheese Spread
+
+    - subcat:
+      - sub: Amul Happy Treats
+      - name: Aloo Tikki
+      - name: Veggie Stix
+      - name: Veg Burger Patty
+      - name: Potato Wedges
+      - name: Hash Brown
+      - name: French Fries
 
   - maincat: 
     - main: Kitchen
       subcat:
-      - sub: Instant Masala
-      - name: Chhole Masala
-      - name: Sabzi Masala
-      - name: Ajowan seed
-      - name: Cumin Whole
-      - name: Black pepper Powder
-      - name: Garam Masala Powder
-      - name: Chaat Masala
-      - name: Black pepper Whole
-      - name: Turmeric Powder
-      - name: Coriander Powder
-      - name: Red chilli Powder
-      - name: Hing
-
-    - subcat:
-      - sub: Pickles
-      - name: Garlic Pickle
-      - name: Lishoda Pickle
-      - name: Kathal Pickle
-      - name: Ginger Pickle
-      - name: Lemon Pickle
-      - name: Amla Pickle
-      - name: Mixed Pickle
-
-  - maincat: 
-    - main: Health Care
-      subcat: 
-      - sub: Medicinal Products
-      - name: Ashwagandha Churna - For Weight Gain
-      - name: Badam Pak - For Weight Gain
-      - name: Shatavar Churna - For Weight Gain
-      - name: Patanjali Chyawanprash - Milk Powder
-      - name: Divya Peya Herbal Tea - For Weight Loss
-      - name: Harad Murabba
-      - name: Amla Murabba
-      - name: Bel Murabba
-      - name: Natural Honey
-      - name: Shatavar
-      - name: Swet Mushli
-      - name: Tulsi Ghan Vati
-      - name: Ashvangandha Capsule
-
-    - subcat:
-      - sub: Digestive Care
-      - name: Pachak Hing Goli
-      - name: Pachak JalJeera
-      - name: Pachak Ajwain With Aloevera
-      - name: Pachak Shodhit haarad
-      - name: Pachak Hing Peda
-      - name: Pachak Anardana
-
-    - subcat:
-      - sub: Health & Wellness
-      - name: Kesar
-      - name: Amla Amrit
-      - name: Moosli Pak
-      - name: Amrit Rasayan
-      - name: Wheat Grass Powder
-
-    - subcat:
-      - sub: Herbal Juice
-      - name: Aloe Vera Juice - For Weight Loss
-      - name: Giloy Juice - Immunity Booster
-      - name: Tulsi Panchang Juice
-      - name: Power Vita Milk Powder
-      - name: Arun Amla Juice
-      - name: Amla-Alovera wheet Grass Juice
-      - name: Aloevera Juice With Fiber
-      - name: Brahmi Sharbat
-      - name: Tulsi Panchang Juice
-      - name: Khus Sharbat
+      - sub: Amul Cattle Feed
+      - name: Anomin
+      - name: Bovi Plus
+      - name: Buffalo Special
+      - name: Cow Kool
+      - name: Ferti Boost
+      - name: Hoof Shield
+      - name: Jeevan
+      - name: Mas Pro
+      - name: Nutri Cal
+      - name: Nutri Energia
+      - name: Nutri Gold
+      - name: Nutri Guard
+      - name: Nutri powder
+      - name: Nutri Rich
+      - name: Rumisoo
+      - name: Vardan
+      - name: Amul Shakti
 ---
 
-  Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
-
-  The company manufactures mineral and herbal products.
-
-  According to CLSA and HSBC, Patanjali is the fastest growing FMCG company in India. It is valued at ₹3,000 crore (equivalent to ₹35 billion or US$490 million in 2019) and some predict revenues of ₹5,000 crore (US$700 million) for the fiscal 2015–16. Patanjali declared its annual turnover of the year 2016–17 to be estimated ₹10,216 crore (US$1.4 billion). It was listed 13th in the list of India's most trusted brands (The Brand Trust Report) as of 2018, and ranks first in FMCG category.
+  Amul, is an Indian dairy cooperative society, based at Anand in the state of Gujarat. Formed in 1946, it is a cooperative brand managed by a cooperative body, the Gujarat Co-operative Milk Marketing Federation Ltd., which today is jointly owned by 3.6 million milk producers in Gujarat.
 
 ---
 

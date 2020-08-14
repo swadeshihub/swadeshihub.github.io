@@ -3,7 +3,7 @@ title: 'Marico'
 comments: true
 ref: marico
 image: true
-time:
+url: https://www.bigbasket.com/ps/?q=marico%20
 category: Made in India
 tags: [food, hair, kitchen, consumer, beauty, health]
 products:
@@ -81,11 +81,7 @@ products:
       - name: Saffola Active Slimming Nutri Shake
 ---
 
-  Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
-
-  The company manufactures mineral and herbal products.
-
-  According to CLSA and HSBC, Patanjali is the fastest growing FMCG company in India. It is valued at ₹3,000 crore (equivalent to ₹35 billion or US$490 million in 2019) and some predict revenues of ₹5,000 crore (US$700 million) for the fiscal 2015–16. Patanjali declared its annual turnover of the year 2016–17 to be estimated ₹10,216 crore (US$1.4 billion). It was listed 13th in the list of India's most trusted brands (The Brand Trust Report) as of 2018, and ranks first in FMCG category.
+  Marico Limited is one of India's leading consumer goods companies providing consumer products and services in the areas of health, beauty and wellness. With its headquarters in Mumbai, Maharashtra, India, Marico is present in over 25 countries across emerging markets of Asia and Africa.
 
 ---
 
