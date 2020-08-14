@@ -3,7 +3,7 @@ title: 'Parle Products'
 comments: true
 ref: parle
 image: true
-url: https://www.bigbasket.com/ps/?q=parle%20
+link: https://www.bigbasket.com/ps/?q=parle%20
 category: Made in India
 tags: [food, consumer, delicious, snack, Biscuits, Sweets, chocolates]
 products:

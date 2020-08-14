@@ -3,7 +3,7 @@ title: 'ITC'
 comments: true
 ref: itc
 image: true
-url: https://www.bigbasket.com/ps/?q=itc%20
+link: https://www.bigbasket.com/ps/?q=itc%20
 category: Made in India
 tags: [milk, atta, salt, butter, food, consumer, delicious, bread, drinks, snack, statinary]
 products:

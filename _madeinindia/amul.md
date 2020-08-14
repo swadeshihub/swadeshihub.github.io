@@ -3,7 +3,7 @@ title: 'Amul'
 comments: true
 ref: amul
 image: true
-url: https://www.bigbasket.com/ps/?q=amul%20
+link: https://www.bigbasket.com/ps/?q=amul%20
 category: Made in India
 tags: [milk, cheese, butter, food, consumer, delicious, bread, drinks, snack, cattle, fodder]
 products:

@@ -3,7 +3,7 @@ title: 'Marico'
 comments: true
 ref: marico
 image: true
-url: https://www.bigbasket.com/ps/?q=marico%20
+link: https://www.bigbasket.com/ps/?q=marico%20
 category: Made in India
 tags: [food, hair, kitchen, consumer, beauty, health]
 products:
