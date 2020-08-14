@@ -57,7 +57,7 @@ font: macro
             <ul>
               {% for sc in mc.subcat %}
                 {% if sc.sub %}
-                  <h3 class="list-header title"><a href="{{ page.link }}{{ sc.sub }}" target="_blank">{{ sc.sub }}</a></h3>
+                  <h3 class="list-header title"><a href="{{ page.url }}{{ sc.sub }}" target="_blank">{{ sc.sub }}</a></h3>
                 {% endif %}
                 {% if sc.name %}
                   <li><a href="{{ page.link }}{{ sc.name }}" style="color:white" target="_blank">{{ sc.name }}</a></li>
