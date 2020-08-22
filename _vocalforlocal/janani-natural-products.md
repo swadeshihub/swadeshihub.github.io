@@ -16,7 +16,7 @@ category: Vocal for Local
 tags: [natural, organic, unpolished, pulses]
 products:
   - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
-    pname: bellar-dhal
+     pname: bellar-dhal
   - name: Horse Gram (ಹುರುಳಿ ಕಾಳು)
   	 pname: horse-gram
   - name: Kabul Channa (ಕಾಬುಲ್ ಕಡಲೆ ಕಾಳು)
