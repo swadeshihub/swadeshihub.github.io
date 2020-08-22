@@ -16,21 +16,21 @@ category: Vocal for Local
 tags: [natural, organic, unpolished, pulses]
 products:
   - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
-  - pname: bellar-dhal
+  	pname: bellar-dhal
   - name: Horse Gram (ಹುರುಳಿ ಕಾಳು)
-  - pname: horse-gram
+  	pname: horse-gram
   - name: Kabul Channa (ಕಾಬುಲ್ ಕಡಲೆ ಕಾಳು)
-  - pname: kabul-channa
+  	pname: kabul-channa
   - name: Channa Dhal (ಕಡಲೆ ಕಾಳು)
-  - pname: channa-dhal
+  	pname: channa-dhal
   - name: Toor Daal (ತೊಗರಿ ಬೇಳೆ)
-  - pname: toor-daal
+  	pname: toor-daal
 ---
 
-  At 'Janani Natural Products', we believe that together we can help protect the environment, as well as our health, by living and supporting an all natural and organic lifestyle. Our team is committed to sourcing only the best of the best with every product we sell. We not only sell all natural products, we also promote village made all natural products . 
+  At <a href="#">Janani Natural Products</a>, we believe that together we can help protect the environment, as well as our health, by living and supporting an all natural and organic lifestyle.
 
-  We are committed to helping provide consumers with chemical-free alternatives to consumer products they use daily. Products featured in our online store for natural and organic products are all chemical-free, toxin-free, vegan, pure and natural products that we stand behind and entrust even with our own personal health and well-being. We are proud to say that at Janani, we only sell 100% all natural products.
+  Our team is committed to sourcing only the best of the best with every product we sell. We also promote <b>Village made all natural products</b> . 
+
+  We are committed to helping provide consumers with chemical-free alternatives to consumer products they use daily. Products featured in our online store for natural and organic products are all chemical-free, toxin-free, vegan, pure and natural products that we stand behind and entrust even with our own personal health and well-being.
 
 ---
-
-_Visit Website [dashInn DECOR](https://dashinndecor.com)._
