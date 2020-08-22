@@ -34,3 +34,4 @@ products:
   We are committed to helping provide consumers with chemical-free alternatives to consumer products they use daily. Products featured in our online store for natural and organic products are all chemical-free, toxin-free, vegan, pure and natural products that we stand behind and entrust even with our own personal health and well-being.
 
 ---
+
