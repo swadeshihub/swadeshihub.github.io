@@ -15,6 +15,7 @@ areacovered: Hebbal, Kempapura, Sanjaynagara, Yelahanka, Yashwantpura, RT Nagar,
 category: Vocal for Local
 tags: [natural, organic, unpolished, pulses]
 products:
+products:
   - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
   	pname: bellar-dhal
   - name: Horse Gram (ಹುರುಳಿ ಕಾಳು)
