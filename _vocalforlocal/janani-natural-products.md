@@ -16,15 +16,15 @@ category: Vocal for Local
 tags: [natural, organic, unpolished, pulses]
 products:
   - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
-  	pname: bellar-dhal
+    pname: bellar-dhal
   - name: Horse Gram (ಹುರುಳಿ ಕಾಳು)
-  	pname: horse-gram
+  	 pname: horse-gram
   - name: Kabul Channa (ಕಾಬುಲ್ ಕಡಲೆ ಕಾಳು)
-  	pname: kabul-channa
+  	 pname: kabul-channa
   - name: Channa Dhal (ಕಡಲೆ ಕಾಳು)
-  	pname: channa-dhal
+  	 pname: channa-dhal
   - name: Toor Daal (ತೊಗರಿ ಬೇಳೆ)
-  	pname: toor-daal
+  	 pname: toor-daal
 ---
 
   At <a href="#">Janani Natural Products</a>, we believe that together we can help protect the environment, as well as our health, by living and supporting an all natural and organic lifestyle.
