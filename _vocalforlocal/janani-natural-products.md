@@ -13,7 +13,7 @@ city: Bengaluru
 areacovered: Hebbal, Kempapura, Sanjaynagara, Yelahanka, Yashwantpura, RT Nagar, Hennur, Nagawara, JC Nagar
  
 category: Vocal for Local
-tags: [natural, organic, unpolished, pulses]
+tags: [natural, organic, unpolished, pulses, chemical-free, toxin-free, vegan]
 products:
   - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
     pname: bellar-dhal
@@ -29,9 +29,7 @@ products:
 
   At <a href="#">Janani Natural Products</a>, we believe that together we can help protect the environment, as well as our health, by living and supporting an all natural and organic lifestyle.
 
-  Our team is committed to sourcing only the best of the best with every product we sell. We also promote <b>Village made all natural products</b> . 
-
-  We are committed to helping provide consumers with chemical-free alternatives to consumer products they use daily. Products featured in our online store for natural and organic products are all chemical-free, toxin-free, vegan, pure and natural products that we stand behind and entrust even with our own personal health and well-being.
+  Our team is committed to sourcing only the best of the best with every product we sell. We also promote Village made all natural products. 
 
 ---
 
