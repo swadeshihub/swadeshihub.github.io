@@ -13,7 +13,7 @@ city: Bengaluru
 areacovered: Hebbal, Kempapura, Sanjaynagara, Yelahanka, Yashwantpura, RT Nagar, Hennur, Nagawara, JC Nagar
  
 category: Vocal for Local
-tags: [natural, organic, unpolished, pulses, chemical-free, toxin-free, vegan]
+tags: [food, natural, organic, unpolished, pulses, chemical-free, toxin-free, vegan]
 products:
   - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
     pname: bellar-dhal
