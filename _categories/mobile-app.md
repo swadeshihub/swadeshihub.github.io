@@ -6,10 +6,8 @@ time:
 category: Category
 tags: [mobile, application, app]
 swadeshi-products:
-  - name: Office Lens
   - name: Mitron
   - name: Jio Share
-  - name: Files Go
   - name: Indian Selfie Camera
   - name: Castle Clash
   - name: Meme Live
@@ -17,16 +15,18 @@ swadeshi-products:
   - name: Say Namasthe
   - name: Snapseed
 videshi-products:
-  - name: Cam Scanner
-  - name: Tik Tok
-  - name: Share It
-  - name: Xender
-  - name: Beauty Plus
-  - name: Clash of Clans
-  - name: Likee
-  - name: UC Browser
-  - name: Zoom
-  - name: Airbrush
+  - name: Office Lens
+  - name: Files Go
+  - name: Cam Scanner (China)
+  - name: Tik Tok (China)
+  - name: Share It (China)
+  - name: Xender (China)
+  - name: Beauty Plus (China)
+  - name: Clash of Clans (China)
+  - name: Likee (China)
+  - name: UC Browser (China)
+  - name: Zoom (China)
+  - name: Airbrush (China)
 ---
 
 

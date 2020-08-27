@@ -2,6 +2,9 @@
 layout: default
 font: macro
 ---
+<style>
+.mySlides {display:none}
+</style>
 
 <article class="recipe{% if page.contact %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
   <div class="content-top">
@@ -27,22 +30,19 @@ font: macro
     <div class="content content-recipe content-style">
 
       {{ content }}
-      <ul>
     {% if page.products %}
+      <ul class="list">
+        {% for i in page.products %}
           <article class="list-recipe">
-              <div class="list-image" style="height:20px;""></div>
+              <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/vocal-for-local/{{ page.ref }}/{{ i.pname }}.jpeg);"></div>
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
-                <h3 class="list-header title">Made in India</h3>
-                <ul>
-                  {% for i in page.products %}
-                      <li>{{ i.name }}</li>
-                  {% endfor %}
-                 </ul>
+                <h3 class="list-header title">{{ i.name }}</h3>
               </div>
           </article>
-    {% endif %}
+        {% endfor %}
       </ul>
+    {% endif %}
       {% include core/share.html %}
                                              
 {% if page.comments %}
@@ -69,7 +69,6 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
-
     </div>
 
     {% include core/footer.html %}

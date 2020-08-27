@@ -41,7 +41,7 @@ font: macro
       {% endfor %}
       </fieldset>
     </form>
-
+	<marquee><a href="#">Click on the Products name to visit our Partners site to Buy them</a></marquee>
     <ul class="list">
     {% for p in page.products %}
 
@@ -57,10 +57,10 @@ font: macro
             <ul>
               {% for sc in mc.subcat %}
                 {% if sc.sub %}
-                  <h3 class="list-header title"><a href="">{{ sc.sub }}</a></h3>
+                  <h3 class="list-header title"><a href="{{ page.link }}{{ sc.sub }}" target="_blank">{{ sc.sub }}</a></h3>
                 {% endif %}
                 {% if sc.name %}
-                  <li>{{ sc.name }}</li>
+                  <li><a href="{{ page.link }}{{ sc.name }}" style="color:white" target="_blank">{{ sc.name }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>

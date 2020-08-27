@@ -21,12 +21,8 @@ products:
   - name: Plywood Cots
 ---
 
-   We've been here in the market for quite a while now. Let's say a couple of decades. We have served in the best of interests to over thousands of customers across the city. Gathering the love and support of more than hundreds of satisfied valued-customers has enabled us to upscale to greater heights. Heads Up! we also own our very own native Manufacturing Industry that provides us the flexibility and eases to experiment, innovate, and revolutionize the way customers want their personalized homes to be. Lastly, one of the key components that drive our business is "Customer Relationship". We've always contained the needs and requisites of our customers with the utmost gravity. Delivering what we believe is nothing but the best!
-
-​
-
-  We deal with all kinds of furniture and Sheesham cots and tables. We customize and sell a wide variety of designer sofas and allow multiple fabric color customizations. A good amount of experience in the curtain and interiors section has added to our advantage the skills required to necessitate the perfect package for our "customers".For further details explore dashInn decor site and visit our contacts page.
+  We deal with all kinds of furniture and Sheesham cots and tables. We customize and sell a wide variety of designer sofas and allow multiple fabric color customizations. A good amount of experience in the curtain and interiors section has added to our advantage the skills required to necessitate the perfect package for our "customers".
 
 ---
 
-_From [dashInn DECOR](https://dashinndecor.com)._
+_Visit Website [dashInn DECOR](https://dashinndecor.com)._

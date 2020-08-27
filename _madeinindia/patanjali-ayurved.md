@@ -3,7 +3,7 @@ title: 'Patanjali Ayurved'
 comments: true
 ref: pathanjali
 image: true
-time:
+link: https://www.patanjaliayurved.net/search/
 category: Made in India
 tags: [soap, toothpaste, toothbrush, cosmetics, shampoo, herbal, ayurvedic]
 products:
@@ -36,6 +36,30 @@ products:
       - name: Atta dhoodh Rusk
 
     - subcat:
+      - sub: Jams & Candy
+      - name: Aloevera Mixed Fruit Jam
+      - name: Gulkand (Rose Petal Jam)
+      - name: Aloevera Pineapple Jam
+      - name: Pineapple Jam
+      - name: Juava Jam
+      - name: Mixed Fruit Jam
+      - name: Amla Chatapata Candy
+      - name: Mango Candy
+      - name: Bel Candy
+      - name: Amla Candy
+
+    - subcat:
+      - sub: Sweets
+      - name: Gulab Jamun
+      - name: Rasgulla
+
+    - subcat:
+      - sub: Others
+      - name: Noodles
+      - name: Tomato Ketchup With Onion
+      - name: Tomato Ketchup With Onion & Garlic
+
+    - subcat:
       - sub: Spicy Snacks
       - name: Aaloo Bhujiya
       - name: Navratana Mixture
@@ -58,6 +82,12 @@ products:
       - name: Rose Body Soap
       - name: Damage Control Hair Conditioner
       - name: Herbal Hand Wash
+
+    - subcat:
+      - sub: Detergents & Soaps (Washing)
+      - name: Herbo Wash Advance Matic 
+      - name: Suoerior Detergent Powder
+      - name: Herbal Wash Detergent Powder
 
     - subcat:
       - sub: Cosmetics
@@ -113,6 +143,59 @@ products:
       - name: Coriander Powder
       - name: Red chilli Powder
       - name: Hing
+
+    - subcat:
+      - sub: Cooking Oil / Ghee
+      - name: Ground Nut Oil
+      - name: Rice Brane Oil
+      - name: Soyabean Oil
+      - name: Virgin Coconut Oil 
+      - name: Sesame Oil (Til)
+      - name: Kachi Ghani Mustard Oil
+      - name: Sunflower Oil
+      - name: Roasted Coconut Oil
+      - name: Cow Ghee
+
+    - subcat:
+      - sub: Coocking Rice
+      - name: Sona Masoori Rice 
+      - name: Brown Basmati Rice 
+      - name: Sampoorna Traditional Basmati Rice
+      - name: Rozana Basmati Rice
+      - name: Silver Basmati Rice 
+      - name: Katarani Rice
+      - name: Dhanshree Basmati
+
+    - subcat:
+      - sub: Attas
+      - name: Navratna Atta
+      - name: Missi Atta
+      - name: Diabities care Atta
+      - name: Patanjali Methi Atta
+      - name: Traditional Whole Wheet Chakki Atta 
+
+    - subcat:
+      - sub: Unpolished Grains
+      - name: Unpolished Moong Dal Dhuli
+      - name: Unpolished Arhar Dal (Tuvar Dal)
+      - name: Unpolished Urad Chilka
+      - name: Unpolished Urad Whole
+      - name: Unpolished Mix Pulses
+      - name: Unpolished Rajma
+      - name: Unpolished Moong Sabut
+      - name: Unpolished Moong Dal Chilka
+      - name: Unpolished Malka Masur Dal 
+      - name: Unpolished Chhhole
+
+    - subcat:
+      - sub: Breakfast Ingrediants
+      - name: Roasted Vermicelli 
+      - name: Vermicelli Plain
+      - name: Besan Atta
+      - name: Poha
+      - name: Sooji
+      - name: Soya Chunks
+      - name: Madhuram Sugar (Jaggrey Powder)
 
     - subcat:
       - sub: Pickles
@@ -176,8 +259,6 @@ products:
   Patanjali Ayurved Limited is an Indian consumer goods company, manufacturing units and headquarters are located in the industrial area of Haridwar, Uttarakhand while the registered office is located at Delhi.
 
   The company manufactures mineral and herbal products.
-
-  According to CLSA and HSBC, Patanjali is the fastest growing FMCG company in India. It is valued at ₹3,000 crore (equivalent to ₹35 billion or US$490 million in 2019) and some predict revenues of ₹5,000 crore (US$700 million) for the fiscal 2015–16. Patanjali declared its annual turnover of the year 2016–17 to be estimated ₹10,216 crore (US$1.4 billion). It was listed 13th in the list of India's most trusted brands (The Brand Trust Report) as of 2018, and ranks first in FMCG category.
 
 ---
 
