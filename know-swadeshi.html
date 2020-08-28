@@ -2,7 +2,7 @@
 layout: default
 font: macro
 lang: en
-ref: index
+ref: know-swdeshi
 image: true
 exclude: true
 ---
@@ -10,23 +10,10 @@ exclude: true
 <div class="index{% if page.image %} entry-hasBackground{% endif %}">
   <div class="content-top">
       {% include core/metabar.html %}
-      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 2x )"></div>
+      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 2x )"></div>
   </div>
 <br><br>
   <div class="content" id="js-list">
-          <article class="list-recipe">
-              <div class="list-image" style="height:20px;"></div>
-              <div class="list-body">
-                <h3 class="list-header title">How ?</h3>
-                <ul>
-                  <li style="color:#FF9933"><a href="" style="color:#FFD700">Find Out</a> : Let's you distinguish Swadeshi Products from Videshi</li>
-                  <li style="color:#FFFFFF"><a href="" style="color:#FFD700">Made in India</a> : Top Made in India  brands that are most trusted by millions of citizens across the country are curated right here</li>
-                  <li style="color:#138808"><a href="" style="color:#FFD700">Vocal for Local</a> : This is our very own unique initiative to curate and support all the local firms and businesses. A list of all local businesses producing native products will be selected and displayed</li>
-                  <!-- <li style="color:#138808"><a href="" style="color:#FFD700">Service Spot</a> : This is our initiative to curate and support all the local service providers such as Electrician, Plumber, Carpenter, etc.., A list of all service providers will be selected and displayed</li> -->
-                 </ul>
-              </div>
-          </article>
-      <br>
     <form class="searchbar">
       <fieldset class="searchbar-group">
         <label class="searchbar-search" for="js-search">
@@ -113,7 +100,7 @@ exclude: true
 
       <li class="list-recipe">
         <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}" target="_blank">
+          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
             <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
             <div class="list-body">
               <span class="list-category category">{{ page.category }}</span>
