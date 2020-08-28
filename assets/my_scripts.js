@@ -1,9 +1,9 @@
 function filter() {
-  alert("filtered");
 	$('.filter-list').hide();
 	var selected = [];    
 	var fill = [];
-	$('.searchbar-checkbox:checked').each(function() {
+	$('input[name="chek-filter"]:checked').each(function() {
+    alert($(this));
     selected.push($(this));
   });
   if(selected.length==0)
