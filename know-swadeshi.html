@@ -74,8 +74,8 @@ exclude: true
     </form>
 
     <ul class="list">
-      {% assign know = site.know | where: "lang", page.lang %}
-      {% for page in know %}
+      {% assign cat = site.categories | where: "lang", page.lang %}
+      {% for page in cat %}
 
       <li class="list-recipe">
         <article>
