@@ -64,8 +64,6 @@ navigation:
   Contact: /contact
 
 collections:
-  know:
-    output: true
   categories:
     output: true
   vocalforlocal:
@@ -92,13 +90,6 @@ defaults:
       layout: categories
       lang: en
       permalink: /:title/
-  - scope:
-      path: ''
-      type: know
-    values:
-      layout: know
-      lang: en
-      permalink: /know-swadeshi
   - scope:
       path: ''
       type: madeinindia

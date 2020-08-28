@@ -10,12 +10,7 @@ exclude: true
 <div class="index{% if page.image %} entry-hasBackground{% endif %}">
   <div class="content-top">
       {% include core/metabar.html %}
-      <img class="hero-background" src="/assets/images/posts/index.jpeg" style="width:100%; height:auto;margin-top: 60px;position: relative;">
-      <!-- <div class="hero-overlay"></div> -->
-<!-- 
-    <header class="content hero">
-      <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ site.tagline }}</h1></a>
-    </header> -->
+      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 2x )"></div>
   </div>
 <br><br>
   <div class="content" id="js-list">
