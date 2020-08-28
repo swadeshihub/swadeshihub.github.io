@@ -1,4 +1,5 @@
-$('.searchbar-group').click(function() {
+function filter() {
+  alert("filtered");
 	$('.filter-list').hide();
 	var selected = [];    
 	var fill = [];
@@ -13,4 +14,4 @@ $('.searchbar-group').click(function() {
     	$(this).show();
     });
   }
-})
+}
