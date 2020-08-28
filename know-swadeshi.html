@@ -23,35 +23,42 @@ exclude: true
           </svg>
           <span class="search-highlight form-highlight"></span>
         </label>
+        <label class="searchbar-search" for="filter-bar">
+          <input class="form-input" id="filter-bar" type="search" placeholder="Search Category, Products ..." autocomplete="off" onkeypress="return event.keyCode != 13;">
+          <svg class="search-icon form-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+          </svg>
+          <span class="search-highlight form-highlight"></span>
+        </label>
       </fieldset>
       <br>
-      <fieldset class="searchbar-group">
+      <fieldset class="searchbar-group" onclick="swadeshi();">
         <label for="food">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="food" value="food">
+          <input class="searchbar-checkbox" type="checkbox" id="food" value="food">
           <span class="searchbar-button">Food</span>
         </label>
         <label for="beauty">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="beauty" value="beauty">
+          <input class="searchbar-checkbox" type="checkbox" id="beauty" value="beauty">
           <span class="searchbar-button">Beauty</span>
         </label>
         <label for="electronics">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="electronics" value="electronics">
+          <input class="searchbar-checkbox" type="checkbox" id="electronics" value="electronics">
           <span class="searchbar-button">Electronics</span>
         </label>
         <label for="health">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="health" value="health">
+          <input class="searchbar-checkbox" type="checkbox" id="health" value="health">
           <span class="searchbar-button">Health</span>
         </label>
         <label for="fashion">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="fashion" value="fashion">
+          <input class="searchbar-checkbox" type="checkbox" id="fashion" value="fashion">
           <span class="searchbar-button">Fashion (Clothing & Shoes)</span>
         </label>
         <label for="vehicles">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="vehicles" value="wheeler">
+          <input class="searchbar-checkbox" type="checkbox" id="vehicles" value="wheeler">
           <span class="searchbar-button">Vehicles</span>
         </label>
         <label for="other">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="other" value="other">
+          <input class="searchbar-checkbox" type="checkbox" id="other" value="other">
           <span class="searchbar-button">Others</span>
         </label>
       </fieldset>
@@ -61,7 +68,7 @@ exclude: true
       {% assign cat = site.categories | where: "lang", page.lang %}
       {% for page in cat %}
 
-      <li class="list-recipe">
+      <li class="list-recipe filter-list {{ page.category }}">
         <article>
           <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
             <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
