@@ -2,7 +2,6 @@
 layout: default
 font: macro
 lang: en
-ref: index
 image: true
 exclude: true
 ---
@@ -110,11 +109,11 @@ exclude: true
     </form>
 
     <ul class="list">
-      {% assign cat = site.categories | where: "lang", page.lang %}
+      {% assign know = site.know | where: "lang", page.lang %}
       {% assign vocalforlocal = site.vocalforlocal | where: "lang", page.lang %}
       {% assign madeinindia = site.madeinindia | where: "lang", page.lang %}
       {% assign service = site.service | where: "lang", page.lang %}
-      {% for page in cat %}
+      {% for page in know %}
 
       <li class="list-recipe">
         <article>
@@ -126,57 +125,6 @@ exclude: true
               {% include custom/meta.html %}
               <span class="list-ingredients ingredients swadeshi-products" data-swadeshi-products="{% for i in page.swadeshi-products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
               <span class="list-ingredients ingredients videshi-products" data-videshi-products="{% for i in page.videshi-products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
-            </div>
-          </a>
-        </article>
-      </li>
-
-      {% endfor %}
-      {% for page in madeinindia %}
-
-      <li class="list-recipe">
-        <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}" target="_blank">
-            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/made-in-india/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
-            <div class="list-body">
-              <span class="list-category category">{{ page.category }}</span>
-              <h3 class="list-header title">{{ page.title }}</h3>
-              {% include custom/meta.html %}
-              <span class="list-ingredients ingredients products" data-products="{% for i in page.products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
-            </div>
-          </a>
-        </article>
-      </li>
-
-      {% endfor %}
-      {% for page in vocalforlocal %}
-
-      <li class="list-recipe">
-        <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}" target="_blank">
-            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/vocal-for-local/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
-            <div class="list-body">
-              <span class="list-category category">{{ page.category }}</span>
-              <h3 class="list-header title">{{ page.title }}</h3>
-              {% include custom/meta.html %}
-              <span class="list-ingredients ingredients products" data-products="{% for i in page.products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
-            </div>
-          </a>
-        </article>
-      </li>
-
-      {% endfor %}
-      {% for page in service %}
-
-      <li class="list-recipe">
-        <article>
-          <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}" target="_blank">
-            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/vocal-for-local/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
-            <div class="list-body">
-              <span class="list-category category">{{ page.category }}</span>
-              <h3 class="list-header title">{{ page.title }}</h3>
-              {% include custom/meta.html %}
-              <span class="list-ingredients ingredients products" data-products="{% for i in page.products %}{{ i.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}"></span>
             </div>
           </a>
         </article>
