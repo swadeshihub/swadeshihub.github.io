@@ -3,7 +3,7 @@ title: 'Storage Power Batteries'
 ref: storage-power-batteries
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, batteries, battery, power, storage]
 swadeshi-products:
   - name: Exide

@@ -3,7 +3,7 @@ title: 'Furniture'
 ref: furniture
 image: true
 time: 
-category: Category
+category: Other
 tags: [furniture, wood, table, chair, sofa, cots, dining]
 swadeshi-products:
   - name: Style Spa

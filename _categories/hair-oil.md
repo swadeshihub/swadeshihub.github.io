@@ -3,7 +3,7 @@ title: 'Hair Oil'
 ref: hair-oil
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [consumer, beauty, hair, oil]
 swadeshi-products:
   - name: Marico (Parachute)

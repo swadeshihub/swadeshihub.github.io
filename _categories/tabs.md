@@ -3,7 +3,7 @@ title: 'Tablets (Tab)'
 ref: tabs
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, tablet, tab, accessories, ipad]
 swadeshi-products:
   - name: Celkon

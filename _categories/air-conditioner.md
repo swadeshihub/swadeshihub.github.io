@@ -3,7 +3,7 @@ title: 'Air Conditioner'
 ref: air-conditioner
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, air, conditioner, ac, cooler]
 swadeshi-products:
   - name: Voltas

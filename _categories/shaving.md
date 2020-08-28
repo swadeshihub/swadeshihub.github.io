@@ -3,7 +3,7 @@ title: 'Shaving'
 ref: shaving
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [consumer, beauty, shaving, blade, cream]
 swadeshi-products:
   - name: Park Avenue

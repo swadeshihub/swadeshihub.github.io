@@ -3,7 +3,7 @@ title: 'Fashion (Clothing & Shoes)'
 ref: fashion
 image: true
 time: 
-category: Category
+category: Fashion
 tags: [fashion, clothing, shoes, sandals, slipper, chappal, jeans, pants, shirt]
 swadeshi-products:
   - name: Sparx

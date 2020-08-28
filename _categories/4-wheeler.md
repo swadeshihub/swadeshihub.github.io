@@ -3,7 +3,7 @@ title: '4 Wheeler'
 ref: 4-wheeler
 image: true
 time: 
-category: Category
+category: Vehicle
 tags: [vehicle, 4-wheeler, car]
 swadeshi-products:
   - name: Tata Motors

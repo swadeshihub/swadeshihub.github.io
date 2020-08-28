@@ -3,7 +3,7 @@ title: 'Diapers'
 ref: diapers
 image: true
 time: 
-category: Category
+category: Consumer
 tags: [consumer, diaper, baby]
 swadeshi-products:
   - name: Himalaya Baby diapers

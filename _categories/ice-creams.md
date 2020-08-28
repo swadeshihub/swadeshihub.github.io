@@ -3,7 +3,7 @@ title: 'Ice Creams'
 ref: ice-creams
 image: true
 time: 
-category: Category
+category: Food
 tags: [ice, cream, food]
 swadeshi-products:
   - name: Amul Ice Cream

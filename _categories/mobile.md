@@ -3,7 +3,7 @@ title: 'Mobiles & Mobile Accessories'
 ref: mobile
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, mobile, accessories, phone, smart, headphone, earphone]
 swadeshi-products:
   - name: Micromax

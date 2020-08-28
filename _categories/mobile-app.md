@@ -3,7 +3,7 @@ title: 'Mobile Applications'
 ref: mobile-app
 image: true
 time: 
-category: Category
+category: Other
 tags: [mobile, application, app]
 swadeshi-products:
   - name: Mitron

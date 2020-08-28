@@ -2,7 +2,7 @@
 title: 'Camera'
 ref: camera
 image: true
-category: Category
+category: Electronics
 tags: [electronics, camera, accessories, photo, video]
 swadeshi-products:
   - name: Vageeswari

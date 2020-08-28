@@ -2,7 +2,7 @@
 title: 'Refrigerators'
 ref: refrigerators
 image: true
-category: Category
+category: Electronics
 tags: [lectronics, refrigerators, kitchen, fridge]
 swadeshi-products:
   - name: VoltasOnida
