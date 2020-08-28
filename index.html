@@ -14,7 +14,7 @@ exclude: true
       {% include core/metabar.html %}
       <img class="hero-background" src="/assets/images/posts/index.jpeg" style="width:100%; height:38vh;margin-top: 60px;position: relative;">
       <img class="hero-background" src="/assets/images/posts/amul.jpeg" style="width:100%; height:38vh;margin-top: 60px;position: relative;">
-      <img class="hero-background" src="/assets/images/posts/patanajali.jpeg" style="width:100%; height:38vh;margin-top: 60px;position: relative;">
+      <img class="hero-background" src="/assets/images/posts/pathanjali.jpeg" style="width:100%; height:38vh;margin-top: 60px;position: relative;">
       <!-- <div class="hero-overlay"></div> -->
 <!-- 
     <header class="content hero">
@@ -24,7 +24,7 @@ exclude: true
 <br><br>
 
   <div class="content" id="js-list">
-    <form class="searchbar">
+    <form class="searchbar" onclick="filter();">
       <fieldset class="searchbar-group">
         <label class="searchbar-search" for="js-search">
           <input class="search form-input" id="js-search" type="search" placeholder="Search Category, Products ..." autocomplete="off" onkeypress="return event.keyCode != 13;">
@@ -236,6 +236,39 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
 
   setTimeout(carousel, 4000);
+}
+
+function filter() {
+
+  alert("filtered");
+  
+  $('.filter-list').hide();
+  
+  var selected = [];    
+  
+  var fill = [];
+  
+  $('.searchbar-checkbox:checked').each(function() {
+  
+    selected.push($(this));
+  
+  });
+  
+  if(selected.length==0)
+  
+    $('.filter-list').show();
+  
+  var i=0;
+  
+  for(i=0;i<selected.length;i++) {
+  
+    $('.'+selected[i].val()).each(function() {
+  
+      $(this).show();
+  
+    });
+  
+  }
 }
 </script>
 </div>
