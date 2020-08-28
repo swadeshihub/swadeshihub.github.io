@@ -3,7 +3,7 @@ title: 'Toothpate & Toothbrush'
 ref: toothpaste-toothbrush
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [consumer, tooth, teeth, brush, paste, mouth, cleaner]
 swadeshi-products:
   - name: Meswak

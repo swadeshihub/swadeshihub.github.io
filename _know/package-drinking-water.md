@@ -3,7 +3,7 @@ title: 'Package Drinking Water'
 ref: package-drinking-water
 image: true
 time: 
-category: Category
+category: Consumer
 tags: [water, food]
 swadeshi-products:
   - name: Bisleri

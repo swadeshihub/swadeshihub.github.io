@@ -2,7 +2,7 @@
 title: 'Speakers'
 ref: speakers
 image: true
-category: Category
+category: Electronics
 tags: [electronics, speakers, headphones, earphones, headset]
 swadeshi-products:
   - name: Vageeswari

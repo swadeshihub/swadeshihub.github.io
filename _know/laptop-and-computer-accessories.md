@@ -3,7 +3,7 @@ title: 'Laptop & Computer Accessories'
 ref: laptop-and-computer-accessories
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, laptop, accessories, computer, pendrive, headphone]
 swadeshi-products:
   - name: i-Ball

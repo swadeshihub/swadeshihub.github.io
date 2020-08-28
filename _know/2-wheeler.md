@@ -3,7 +3,7 @@ title: '2 Wheeler'
 ref: 2-wheeler
 image: true
 time: 
-category: Category
+category: Vehicle
 tags: [vehicle, 2-wheeler, bike, scooty, scooter]
 swadeshi-products:
   - name: Hero

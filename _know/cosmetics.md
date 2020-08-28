@@ -3,7 +3,7 @@ title: 'Cosmetics'
 ref: cosmetics
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [beauty, body, hand, face, cream, powder, cosmetics, gel]
 swadeshi-products:
   - name: Cintol

@@ -3,7 +3,7 @@ title: 'Washing Machine'
 ref: washing-machine
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, washing, machine]
 swadeshi-products:
   - name: IFB

@@ -3,7 +3,7 @@ title: 'Television'
 ref: television
 image: true
 time: 
-category: Category
+category: Electronics
 tags: [electronics, tv, telivision, led, lcd, entertainment]
 swadeshi-products:
   - name: Videocon

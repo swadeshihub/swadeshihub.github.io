@@ -9,7 +9,6 @@ font: macro
 
     {% if page.image %}
       <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}') 2x )"></div>
-      <div class="hero-overlay"></div>
     {% endif %}
 
     <header class="content hero">

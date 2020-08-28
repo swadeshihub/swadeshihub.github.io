@@ -3,7 +3,7 @@ title: 'Hair DYE'
 ref: hair-dye
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [consumer, beauty, hair, dye]
 swadeshi-products:
   - name: Neha

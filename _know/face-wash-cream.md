@@ -3,7 +3,7 @@ title: 'Face Creams & Face Wash'
 ref: face-wash-cream
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [beauty, body, hand, face, wash, cream, powder, gel]
 swadeshi-products:
   - name: Cintol

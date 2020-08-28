@@ -3,7 +3,7 @@ title: 'Milk Powders / Energy Drinks'
 ref: energy-drinks
 image: true
 time: 
-category: Category
+category: Food
 tags: [food, milk, powder, consumer, energy, drink]
 swadeshi-products:
   - name: Nutramul

@@ -3,7 +3,7 @@ title: 'Soaps & Shampoos'
 ref: soaps-shampoo
 image: true
 time: 
-category: Category
+category: Beauty
 tags: [beauty, soap, shampoo, body, hand, wash, cream, gel]
 swadeshi-products:
   - name: Cintol

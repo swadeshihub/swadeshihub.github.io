@@ -3,7 +3,7 @@ title: 'Chips / Wafers / Snacks'
 ref: chips-wafers-snacks
 image: true
 time: 
-category: Category
+category: Food
 tags: [food, chips, wafers, snacks]
 swadeshi-products:
   - name: Parle Wafers
