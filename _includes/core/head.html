@@ -68,7 +68,65 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/assets/my_scripts.js"></script>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Social Media Bar -->
+<style>
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5999;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #e4405f;
+  color: white;
+}
+
+.linkedin {
+  background: #0077B5;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+</style>
   <!-- RSS -->
   {% feed_meta %} {% seo title=false %}
+  <div class="icon-bar">
+  <a href="https://facebook.com/HubSwadeshi" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://instagram.com/HubSwadeshi" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://twitter.com/HubSwadeshi" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://linkedin.com/HubSwadeshi" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  </div>
 </head>
