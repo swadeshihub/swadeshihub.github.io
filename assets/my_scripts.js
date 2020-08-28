@@ -3,7 +3,7 @@ function filter() {
 	var selected = [];    
 	var fill = [];
 	$('input[name="chek-filter"]:checked').each(function() {
-    alert($(this));
+    alert($(this).val());
     selected.push($(this));
   });
   if(selected.length==0)
