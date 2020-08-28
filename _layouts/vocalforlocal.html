@@ -6,7 +6,7 @@ font: macro
 .mySlides {display:none}
 </style>
 
-<article class="recipe{% if page.contact %} recipe-hasSidebar{% endif %}{% if page.image %} recipe-hasBackground{% endif %}">
+<div class="index{% if page.image %} entry-hasBackground{% endif %}{% if page.contact %} recipe-hasSidebar{% endif %}">
   <div class="content-top">
     {% include core/metabar.html %}
 
@@ -73,4 +73,4 @@ s.setAttribute('data-timestamp', +new Date());
 
     {% include core/footer.html %}
   </div>
-</article>
+</div>
