@@ -10,7 +10,7 @@ exclude: true
 <div class="index{% if page.image %} entry-hasBackground{% endif %}">
   <div class="content-top">
       {% include core/metabar.html %}
-      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 2x ); height:38vh; position: relative;"></div>
+      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 2x ); height:38vh; position: relative;top:60px;"></div>
   </div>
 <br>
   <div class="content" id="js-list">
@@ -27,31 +27,31 @@ exclude: true
       <br>
       <fieldset class="searchbar-group">
         <label for="food">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="food" value="food">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="food" value="food">
           <span class="searchbar-button">Food</span>
         </label>
         <label for="beauty">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="beauty" value="beauty">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="beauty" value="beauty">
           <span class="searchbar-button">Beauty</span>
         </label>
         <label for="electronics">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="electronics" value="electronics">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="electronics" value="electronics">
           <span class="searchbar-button">Electronics</span>
         </label>
         <label for="health">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="health" value="health">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="health" value="health">
           <span class="searchbar-button">Health</span>
         </label>
         <label for="fashion">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="fashion" value="fashion">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="fashion" value="fashion">
           <span class="searchbar-button">Fashion (Clothing & Shoes)</span>
         </label>
         <label for="vehicles">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="vehicles" value="wheeler">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="vehicles" value="wheeler">
           <span class="searchbar-button">Vehicles</span>
         </label>
         <label for="other">
-          <input class="searchbar-checkbox js-category" name="chek-filter" type="checkbox" id="other" value="other">
+          <input class="searchbar-checkbox js-type" name="chek-filter" type="checkbox" id="other" value="other">
           <span class="searchbar-button">Others</span>
         </label>
       </fieldset>
