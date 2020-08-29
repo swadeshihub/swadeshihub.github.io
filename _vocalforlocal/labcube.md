@@ -28,5 +28,5 @@ products:
 
 --- 
 
-_Demonstration on how the "Covid Safety Key" can protect us against the Virus [Click Here](https://youtu.be/AFcrVzk58BI)._
-_Visit Website [dashInn DECOR](https://labcube.in)._
+_Demonstration on how the "Covid Safety Key" can protect us against the Virus [Click Here](https://youtu.be/AFcrVzk58BI)._<br>
+_Visit Website [Labcube](https://labcube.in)._
