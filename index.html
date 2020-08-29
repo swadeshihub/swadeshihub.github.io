@@ -21,9 +21,9 @@ exclude: true
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ site.tagline }}</h1></a>
     </header> -->
   </div>
-<br><br>
+<br>
 
-  <div class="content" id="js-list">
+  <!-- <div class="content" id="js-list">
     <form class="searchbar" onclick="filter();">
       <fieldset class="searchbar-group">
         <label class="searchbar-search" for="js-search">
@@ -65,21 +65,21 @@ exclude: true
           <span class="searchbar-button">Others</span>
         </label>
       </fieldset>
-    </form>
-          <!-- <article class="list-recipe">
-              <div class="list-image" style="height:20px;"></div>
-              <div class="list-body">
-                <h3 class="list-header title">How ?</h3>
-                <ul>
-                  <li style="color:#FF9933"><a href="" style="color:#FFD700">Find Out</a> : Let's you distinguish Swadeshi Products from Videshi</li>
-                  <li style="color:#FFFFFF"><a href="" style="color:#FFD700">Made in India</a> : Top Made in India  brands that are most trusted by millions of citizens across the country are curated right here</li>
-                  <li style="color:#138808"><a href="" style="color:#FFD700">Vocal for Local</a> : This is our very own unique initiative to curate and support all the local firms and businesses. A list of all local businesses producing native products will be selected and displayed</li>
-                  <li style="color:#138808"><a href="" style="color:#FFD700">Service Spot</a> : This is our initiative to curate and support all the local service providers such as Electrician, Plumber, Carpenter, etc.., A list of all service providers will be selected and displayed</li>
-                 </ul>
-              </div>
-          </article>
-      <br> -->
-    <!-- <form class="searchbar">
+    </form> -->
+    <article class="list-recipe">
+        <div class="list-image" style="height:20px;"></div>
+        <div class="list-body">
+          <!-- <h3 class="list-header title">How ?</h3> -->
+          <ul>
+            <!-- <li style="color:#FF9933"><a href="" style="color:#FFD700">Find Out</a> : Let's you distinguish Swadeshi Products from Videshi</li> -->
+            <li style="color:#FF9933"><a href="" style="color:#FFD700">Made in India</a> : Top Made in India  brands that are most trusted by millions of citizens across the country are curated right here</li>
+            <li style="color:#138808"><a href="" style="color:#FFD700">Vocal for Local</a> : This is our very own unique initiative to curate and support all the local firms and businesses. A list of all local businesses producing native products will be selected and displayed</li>
+            <!-- <li style="color:#138808"><a href="" style="color:#FFD700">Service Spot</a> : This is our initiative to curate and support all the local service providers such as Electrician, Plumber, Carpenter, etc.., A list of all service providers will be selected and displayed</li> -->
+           </ul>
+        </div>
+    </article>
+      <br>
+    <form class="searchbar">
       <fieldset class="searchbar-group">
         <label class="searchbar-search" for="js-search">
           <input class="search form-input" id="js-search" type="search" placeholder="Search Category, Products ..." autocomplete="off" onkeypress="return event.keyCode != 13;">
@@ -90,17 +90,13 @@ exclude: true
         </label>
       </fieldset>
       <fieldset class="searchbar-group">
-        <label for="category">
-          <input class="searchbar-checkbox js-category" type="checkbox" id="category" value="Category">
-          <span class="searchbar-button">Find Out</span>
-        </label>
         <label for="made_in_india">
           <input class="searchbar-checkbox js-category" type="checkbox" id="made_in_india" value="Made in India">
-          <span class="searchbar-button">Made in India</span>
+          <span class="searchbar-button" style="color:#FF9933">Made in India</span>
         </label>
         <label for="vocal_for_local">
           <input class="searchbar-checkbox js-category" type="checkbox" id="vocal_for_local" value="Vocal for Local">
-          <span class="searchbar-button">Vocal for Local</span>
+          <span class="searchbar-button" style="color:#138808">Vocal for Local</span>
         </label>
       </fieldset>
       <br>
@@ -117,40 +113,20 @@ exclude: true
           <input class="searchbar-checkbox js-type" type="checkbox" id="electronics" value="electronics">
           <span class="searchbar-button">Electronics</span>
         </label>
-        <label for="mobile">
-          <input class="searchbar-checkbox js-type" type="checkbox" id="mobile" value="mobile">
-          <span class="searchbar-button">Mobile & Accessories</span>
-        </label>
         <label for="health">
           <input class="searchbar-checkbox js-type" type="checkbox" id="health" value="health">
           <span class="searchbar-button">Health</span>
-        </label>
-        <label for="ayurvedic">
-          <input class="searchbar-checkbox js-type" type="checkbox" id="ayurvedic" value="ayurved">
-          <span class="searchbar-button">Ayurvedic</span>
-        </label><br>
-        <label for="kitchen">
-          <input class="searchbar-checkbox js-type" type="checkbox" id="kitchen" value="kitchen">
-          <span class="searchbar-button">Kitchen</span>
         </label>
         <label for="fashion">
           <input class="searchbar-checkbox js-type" type="checkbox" id="fashion" value="fashion">
           <span class="searchbar-button">Fashion (Clothing & Shoes)</span>
         </label>
-        <label for="vehicles">
-          <input class="searchbar-checkbox js-type" type="checkbox" id="vehicles" value="wheeler">
-          <span class="searchbar-button">Vehicles</span>
-        </label>
         <label for="furniture">
           <input class="searchbar-checkbox js-type" type="checkbox" id="furniture" value="furniture">
           <span class="searchbar-button">Furniture</span>
         </label>
-        <label for="mobile-app">
-          <input class="searchbar-checkbox js-type" type="checkbox" id="mobile-app" value="application">
-          <span class="searchbar-button">Mobile Applications</span>
-        </label>
       </fieldset>
-    </form> -->
+    </form>
 
     <ul class="list">
       {% assign vocalforlocal = site.vocalforlocal | where: "lang", page.lang %}

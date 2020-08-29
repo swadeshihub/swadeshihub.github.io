@@ -10,9 +10,9 @@ exclude: true
 <div class="index{% if page.image %} entry-hasBackground{% endif %}">
   <div class="content-top">
       {% include core/metabar.html %}
-      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 2x )"></div>
+      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 2x ); height:38vh; position: relative;"></div>
   </div>
-<br><br>
+<br>
   <div class="content" id="js-list">
     <form class="searchbar">
       <fieldset class="searchbar-group">
