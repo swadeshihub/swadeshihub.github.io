@@ -5,6 +5,9 @@ ref: janani-natural-products
 image: true
 comments: true
 
+slider: 
+  - name: slider1
+
 contact: true
 phone: +91 7892472408, +91 8746080548
 email: jananinaturalproducts@gmail.com
