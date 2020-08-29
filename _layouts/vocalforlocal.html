@@ -21,11 +21,24 @@ font: macro
       <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{{ page.title }}</h1></a>
       <h3 class="">{{ page.tagline }}</h3>
       {% include custom/meta.html %}
+
+      <h1 class="sidebar-headline" style="font-size:30px">Contact Details</h1><hr>
+      <p style="font-size:15px">Phone : </p>
+      <h2 style="font-size:17px; color:#fc0303">{{ page.phone }}</h2> 
+      <p style="font-size:15px">Email : </p>
+      <h2 style="font-size:17px; color:#fc0303">{{ page.email }}</h2>
+      <hr>
+      <p style="font-size:15px">City : <b style="font-size:15px;color:#fcc603">{{ page.city }}</b></p>
+      <p style="font-size:15px">Address : </p>
+      <h2 style="font-size:17px; color:#fcc603">{{ page.address }}</h2>
+      <hr>
+      <p style="font-size:15px">Area Covered : </p>
+      <h2 style="font-size:17px; color:#fc0015">{{ page.areacovered }}</h2>
     </header>
     
   </div>
 
-      {% include custom/sidebar.html %}
+      <!-- {% include custom/sidebar.html %} -->
 
   <div class="content-bottom">
     <div class="content content-recipe content-style">
