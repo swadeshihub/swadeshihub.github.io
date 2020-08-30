@@ -4,6 +4,8 @@ tagline: Comfort at your Doorstep
 ref: dashinndecor
 image: true
 comments: true
+slider:
+  - name: slider1
 
 contact: true
 phone: +91 9845552498
