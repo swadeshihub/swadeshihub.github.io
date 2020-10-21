@@ -66,6 +66,12 @@ font: macro
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
                 <h3 class="list-header title">{{ i.name }}</h3>
+                {% if i.price %}
+                <h2 class="list-header title">{{ i.price }}</h2>
+                {% endif %}
+                {% if i.dprice %}
+                <a href=""><h2 class="list-header title">{{ i.dprice }}</h2></a>
+                {% endif %}
               </div>
           </article>
         {% endfor %}

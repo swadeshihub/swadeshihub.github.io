@@ -1,38 +1,65 @@
 ---
-title: 'Janai Natural Products'
+title: 'DRAVYAM Cold Press Oil'
 tagline: 
-ref: janani-natural-products
+ref: dravyam
 image: true
 comments: true
 
 slider: 
   - name: slider1
+  - name: slider2
+  - name: slider3
 
 contact: true
-phone: +91 7892472408, +91 8746080548
-email: jananinaturalproducts@gmail.com
-address: R-ganic shops, near RT Nagar Police Station, RT Nagar
+phone: +91 8553819342
+email: ashvinkumar352@gmail.com
+address: #2135, Om Bhagavathi Store, 10th cross, sanjeevininagar, sahakarnagar post, Bangalore-92
 city: Bengaluru
-areacovered: Hebbal, Kempapura, Sanjaynagara, Yelahanka, Yashwantpura, RT Nagar, Hennur, Nagawara, JC Nagar
+areacovered: Sanjaynagar, Hebbal, Sahakarnagar, Canarabank Layout, Yelahanka.Nagar
  
 category: Vocal for Local
-tags: [food, natural, organic, unpolished, pulses, chemical-free, toxin-free, vegan]
+tags: [food, natural, organic, traditional, oils, cold, pressed, coconut, sunflower, safflower, groundnut, sesame, castor]
 products:
-  - name: Bellar Dhal (ಅವರೆ ಕಾಳು)
-    pname: bellar-dhal
-  - name: Horse Gram (ಹುರುಳಿ ಕಾಳು)
-    pname: horse-gram
-  - name: Kabul Channa (ಕಾಬುಲ್ ಕಡಲೆ ಕಾಳು)
-    pname: kabul-channa
-  - name: Channa Dhal (ಕಡಲೆ ಕಾಳು)
-    pname: channa-dhal
-  - name: Toor Daal (ತೊಗರಿ ಬೇಳೆ)
-    pname: toor-daal
+  - name: GroundNut Oil (ಕಡಲೆಕಾಯಿ ಎಣ್ಣೆ)
+    pname: groundnut-oil
+    price: ₹359/ ltr
+    dprice: ₹300/ ltr
+
+  - name: Coconut Oil (ಕೊಬ್ಬರಿ ಎಣ್ಣೆ)
+    pname: coconut-oil
+    price: ₹399/ ltr
+    dprice: ₹320/ ltr
+
+  - name: Sunflower Oil (ಸೂರ್ಯಕಾಂತಿ ಎಣ್ಣೆ)
+    pname: sunflower-oil
+    price: ₹479/ ltr
+    dprice: ₹300/ ltr
+
+  - name: Safflower Oil (ಕುಸುಬಿ ಎಣ್ಣೆ)
+    pname: safflower-oil
+    price: ₹499/ ltr
+    dprice: ₹400/ ltr
+
+  - name: Sesame Oil (ಎಳ್ಳೆಣ್ಣೆ)
+    pname: sesame-oil
+    price: ₹539/ ltr
+    dprice: ₹500/ ltr
+
+  - name: Castor Oil
+    pname: castor-oil
+    price: ₹329/ ltr, ₹109/ 200ml
+    dprice: ₹290/ ltr, ₹90/ 200ml
 ---
 
-  At <a href="#">Janani Natural Products</a>, we believe that together we can help protect the environment, as well as our health, by living and supporting an all natural and organic lifestyle.
+  At <a href="#">DRAVYAM</a>, we provide our customers with Quality Cold-pressed Oils.
 
-  Our team is committed to sourcing only the best of the best with every product we sell. We also promote Village made all natural products. 
+  <a href="">Why Should we switch to Cold-pressed oils?</a>
+  * Boosts Heart Health & Lowers Blood Pressure.
+  * Maintains cholesterol levels.
+  * Reduces risk of heart diseases.
+  * High in Vitamin E and micronutrients that are vital for our holistic well-being.
+  * Unprocessed - No added preservatives and chemicals.
+  * And to fight against oil mafia.
 
 ---
 
