@@ -65,12 +65,13 @@ font: macro
               <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/vocal-for-local/{{ page.ref }}/{{ i.pname }}.jpeg);"></div>
               <div class="list-body">
                 <span class="list-category category" style="background:green">Swadeshi</span>
-                <h3 class="list-header title">{{ i.name }}</h3>
+                <h3 class="list-header title">{{ i.name }}</h3><br><hr>
                 {% if i.price %}
-                <h2 class="list-header title">{{ i.price }}</h2>
+                  <h3 style="color:#FFD700">{{ i.price }}</h2>
                 {% endif %}
                 {% if i.dprice %}
-                <a href=""><h2 class="list-header title">{{ i.dprice }}</h2></a>
+                  <h3 style="color:white">{{ i.mrp }}</h2><br>
+                  <h3 style="color:#FFD700">{{ i.dprice }}</h3>
                 {% endif %}
               </div>
           </article>

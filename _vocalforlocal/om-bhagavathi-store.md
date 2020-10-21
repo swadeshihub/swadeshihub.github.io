@@ -22,32 +22,32 @@ tags: [food, natural, organic, traditional, oils, cold, pressed, coconut, sunflo
 products:
   - name: GroundNut Oil (ಕಡಲೆಕಾಯಿ ಎಣ್ಣೆ)
     pname: groundnut-oil
-    price: ₹359/ ltr
+    mrp: ₹359/ ltr
     dprice: ₹300/ ltr
 
   - name: Coconut Oil (ಕೊಬ್ಬರಿ ಎಣ್ಣೆ)
     pname: coconut-oil
-    price: ₹399/ ltr
+    mrp: ₹399/ ltr
     dprice: ₹320/ ltr
 
   - name: Sunflower Oil (ಸೂರ್ಯಕಾಂತಿ ಎಣ್ಣೆ)
     pname: sunflower-oil
-    price: ₹479/ ltr
+    mrp: ₹479/ ltr
     dprice: ₹300/ ltr
 
   - name: Safflower Oil (ಕುಸುಬಿ ಎಣ್ಣೆ)
     pname: safflower-oil
-    price: ₹499/ ltr
+    mrp: ₹499/ ltr
     dprice: ₹400/ ltr
 
   - name: Sesame Oil (ಎಳ್ಳೆಣ್ಣೆ)
     pname: sesame-oil
-    price: ₹539/ ltr
+    mrp: ₹539/ ltr
     dprice: ₹500/ ltr
 
   - name: Castor Oil
     pname: castor-oil
-    price: ₹329/ ltr, ₹109/ 200ml
+    mrp: ₹329/ ltr, ₹109/ 200ml
     dprice: ₹290/ ltr, ₹90/ 200ml
 ---
 
