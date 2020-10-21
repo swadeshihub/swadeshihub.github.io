@@ -13,7 +13,7 @@ slider:
 contact: true
 phone: +91 8553819342
 email: ashvinkumar352@gmail.com
-address: #2135, Om Bhagavathi Store, 10th cross, sanjeevininagar, sahakarnagar post, Bangalore-92
+address: 2135, Om Bhagavathi Store, 10th cross, sanjeevininagar, sahakarnagar post, Bangalore-92
 city: Bengaluru
 areacovered: Sanjaynagar, Hebbal, Sahakarnagar, Canarabank Layout, Yelahanka.Nagar
  
