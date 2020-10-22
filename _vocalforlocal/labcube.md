@@ -22,6 +22,7 @@ tags: [covid, safety, key, health]
 products:
   - name: Labcube Covid Safety Key 
     pname: covid-safety-key
+    price: Rs.199/-
 ---
 
   <a href="#">“Covid Safety Key”</a> is designed in USA and manufactured  in India, it’s a simple tool, made of special grade Brass, and can be used to operate surfaces in public areas and to use Public Water Faucets, Operate ATMs, and POS Machines, Door Opener, Trolley Pusher, Operate Lift Buttons, Open Car Doors, Use while traveling in Public Transport, Hospitals, Places of Recreation, Places of Worship, Hotels and Clubs Etc.. 
