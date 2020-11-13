@@ -61,7 +61,7 @@ navigation:
   Know Swadeshi: /know-swadeshi
   Vocal for Local: /vocal-for-local
   About Us: /about
-  Our Team: /team
+#   Our Team: /team
   Contact: /contact
 
 collections:
