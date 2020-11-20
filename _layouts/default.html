@@ -6,12 +6,10 @@ layout: compress
 <html lang="en">
   {% include core/head.html %}
 
-  <body class="{% if page.font %}{{ page.font }}{% else %}{{ layout.font }}{% endif %}">
+	<body data-spy="scroll" data-target="#navbar-example">
 
-    <div class="body-wrapper">
-      {{ content }}
-    </div>
+	      {{ content }}
 
-    {% include core/scripts.html %}
-  </body>
+	    {% include core/scripts.html %}
+  	</body>
 </html>
