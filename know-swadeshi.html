@@ -70,6 +70,19 @@ exclude: true
           <h3 class="section-title">Find Out</h3>
           <p class="section-description">Click the below Category to find out the Swadeshi Products in that Category.</p>
         </div>
+
+      {% for page in madeinindia %}
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/made-in-india/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}" alt="">
+              <div class="details">
+                <h4>{{ page.title }}</h4>
+                <span>{{ page.category }}</span>
+              </div>
+            </a>
+          </div>
+      {% endfor %}
         <div class="row">
 
           <div class="col-lg-12">
