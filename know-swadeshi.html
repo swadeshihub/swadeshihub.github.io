@@ -15,7 +15,7 @@ exclude: true
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="{{ site.baseurl }}{{ site.assets }}/{{ site.baseurl }}{{ site.assets }}/img/logo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="{{ site.baseurl }}{{ site.assets }}/{{ site.baseurl }}{{ site.assets }}/images/slider/index2.jpeg" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -74,22 +74,26 @@ exclude: true
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-logo">Logo</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-Electronics, .filter-Vehicle, .filter-Food, .filter-Beauty, .filter-Consumer, .filter-Fashion, .filter-Other, .filter-Health" class="filter-active">All</li>
+              <li data-filter=".filter-Electronics">Electronics</li>
+              <li data-filter=".filter-Vehicle">Vehicle</li>
+              <li data-filter=".filter-Food">Food</li>
+              <li data-filter=".filter-Beauty">Beauty</li>
+              <li data-filter=".filter-Consumer">Consumer</li>
+              <li data-filter=".filter-Fashion">Fashion</li>
+              <li data-filter=".filter-Health">Health</li>
+              <li data-filter=".filter-Other">Other</li>
             </ul>
           </div>
         </div>
 
         <div class="row" id="portfolio-wrapper">
-          
+
 
           {% assign cat = site.categories | where: "lang", page.lang %}
           {% for page in cat %}
 
-              <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+              <div class="col-lg-3 col-md-6 portfolio-item filter-{{ page.category }}">
                 <a href="">
                   <img src="{{ site.baseurl }}{{ site.assets }}{{ site.images }}/category/{% if page.image %}{{ page.ref }}.jpeg{% elsif site.image %}{{ site.image }}{% endif %}" alt="">
                   <div class="details">
@@ -99,125 +103,6 @@ exclude: true
                 </a>
               </div>
           {% endfor %}
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/app1.jpg" alt="">
-              <div class="details">
-                <h4>App 1</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>Web 2</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/app3.jpg" alt="">
-              <div class="details">
-                <h4>App 3</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/card1.jpg" alt="">
-              <div class="details">
-                <h4>Card 1</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/card2.jpg" alt="">
-              <div class="details">
-                <h4>Card 2</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/web3.jpg" alt="">
-              <div class="details">
-                <h4>Web 3</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Card 3</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/app2.jpg" alt="">
-              <div class="details">
-                <h4>App 2</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/logo1.jpg" alt="">
-              <div class="details">
-                <h4>Logo 1</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/logo3.jpg" alt="">
-              <div class="details">
-                <h4>Logo 3</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/web1.jpg" alt="">
-              <div class="details">
-                <h4>Web 1</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="{{ site.baseurl }}{{ site.assets }}/img/portfolio/logo2.jpg" alt="">
-              <div class="details">
-                <h4>Logo 2</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
 
         </div>
 
