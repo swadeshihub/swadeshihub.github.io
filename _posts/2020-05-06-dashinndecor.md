@@ -20,10 +20,17 @@ tags:
   - table
 author: 
 paginate: true
-ph: +91 9845552498
+ph1: +91 9845552498
 email: dashinndecor@gmail.com
 address: No.6 Hormavu Main Road, Next to H&O Banaswadi Furniture Market, 560043
 city: Bengaluru
+areacovered: Bengaluru City 
+
+products:
+  - name: Sheesham Dining Tables
+  - name: Sheesham Cots
+  - name: Sofas
+  - name: Plywood Cots
 ---
 
  We deal with all kinds of furniture and Sheesham cots and tables. We customize and sell a wide variety of designer sofas and allow multiple fabric color customizations. A good amount of experience in the curtain and interiors section has added to our advantage the skills required to necessitate the perfect package for our "customers".
