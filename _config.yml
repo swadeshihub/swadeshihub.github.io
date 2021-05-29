@@ -1,120 +1,108 @@
-# Dependencies
+# Site Settings
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by
+  Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: youremail@test.com
+# See: https://disqus.com/
+disqus_username: disqus_username
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
+
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
 markdown: kramdown
 highlighter: rouge
-
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
-# Settings
-color: '#fab005'
 permalink: /:title/
-compress_html:
-  clippings: all
-  comments: all
-dark_theme: true
-
-# Site meta
-title: Swadeshi Hub
-tagline: ''
-description: 'A Hub of Swadeshi - Made in India Products.Find Out : Lets you distinguish Swadeshi Products from Videshi. Made in India : Top Made in India brands that are most trusted by millions of citizens across the country are curated right here. Vocal for Local : This is our very own unique initiative to curate and support all the local firms and businesses. A list of all local businesses producing native products will be selected and displayed.'
-keywords: 'swadeshi, made in india, india, local, service'
-url: https://swadeshihub.github.io
-baseurl: /
-assets: /assets
-images: /images/
-image: index-large.jpg
-logo: /assets/icons/apple-icon-144x144.png
-
-author:
-  name: Swadeshi Hub
-  bio: A Hub of Swadeshi - Made in India Products
-  image: author
-  url: 
-  email: swadeshihub.info@gmail.com
-  twitter: HubSwadeshi
-
-social:
-  twitter: https://twitter.com/HubSwadeshi
-
-version: 2.0.0
-
-# github:
-#   repo: https://github.com/
-
-# Integrations
-# typekit:              fcv7rfe
-
-google_fonts:
-  Overpass: 400, 600, 800
-
-google_analytics_key: UA-172912914-1
-google-site-verification: 3DscbxAkFyePxX8tydaYU82Bxkg-8mmEuHfNhQJgL8o
-
-# Content
-excerpt_separator: <!-- Read more -->
-
-navigation:
-  Know Swadeshi: /know-swadeshi
-  Vocal for Local: /vocal-for-local
-  About Us: /about
-  Contact: /contact
-
 collections:
-  categories:
+  authors:
     output: true
-  vocalforlocal:
-    output: true
-  madeinindia:
-    output: true
-  service:
-    output: true
-  simple:
-    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
 
-defaults:
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-      lang: en
-      permalink: /news/:title/
-  - scope:
-      path: ''
-      type: categories
-    values:
-      layout: categories
-      lang: en
-      permalink: /:title/
-  - scope:
-      path: ''
-      type: madeinindia
-    values:
-      layout: madeinindia
-      lang: en
-      permalink: /:title/
-  - scope:
-      path: ''
-      type: vocalforlocal
-    values:
-      layout: vocalforlocal
-      lang: en
-      permalink: /:title/
-  - scope:
-      path: ''
-      type: service
-    values:
-      layout: service
-      lang: en
-      permalink: /:title/
-  - scope:
-      path: ''
-      type: simple
-    values:
-      layout: simple
-      lang: en
-      permalink: /:title/
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v3.1.1

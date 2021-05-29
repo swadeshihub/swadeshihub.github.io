@@ -3,13 +3,15 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en">
-  {% include core/head.html %}
-
-	<body data-spy="scroll" data-target="#navbar-example">
-
-	      {{ content }}
-
-	    {% include core/scripts.html %}
-  	</body>
+<html lang="{{ site.language }}" class="no-js">
+    {% include head.html %}
+    <body class="has-push-menu">
+        {% include svg-icons.html %}
+        {% include header.html %}
+            <section class="content">
+                {{ content }}
+            </section>
+        {% include footer.html %}
+    </body>
 </html>
+

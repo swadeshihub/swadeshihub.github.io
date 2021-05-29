@@ -1,30 +1,11 @@
 ---
 layout: default
-font: macro
 ---
 
-<article class="post{% if page.image %} entry-hasBackground{% endif %}">
-  <div class="content-top">
-    {% if page.image %}
-      <div class="hero-background" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}.jpeg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/layout/{{ page.ref }}-large.jpeg') 2x )"></div>
-      <div class="hero-overlay"></div>
-      {% include core/metabar.html color="-white" %}
-    {% else %}
-      {% include core/metabar.html %}
-    {% endif %}
-    <header class="content hero">
-      <a id="{{ page.title | url_encode }}"><h1 class="hero-title">{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}</h1></a>
-    </header>
-  </div>
+<div class="post">
 
-  <div class="content-bottom">
-    <div class="content content-style">
+  <article class="post-content fullwidth">
+    {{ content }}
+  </article>
 
-      {{ content }}
-
-      {% include core/share.html %}
-
-  </div>
-</article>
-
-{% include core/footer.html %}
+</div>
