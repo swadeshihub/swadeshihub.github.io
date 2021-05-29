@@ -11,10 +11,10 @@ optimized_image: >-
   https://swadeshihub.github.io/assets/images//vocal-for-local/janani-natural-products/slider1.jpeg
 category: food-products
 tags:
-  - Chemical-Free
-  - Natural
-  - Organic
-  - Pulses
+  - chemical-free
+  - natural
+  - organic
+  - pulses
 author: 
 paginate: true
 ph1: +91 7892472408
