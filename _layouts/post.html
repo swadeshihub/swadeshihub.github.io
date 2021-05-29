@@ -12,11 +12,11 @@
                     {% if page.date %}
                         <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
                         <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                            {% include date.html date=page.date %}
+                            Updated on {% include date.html date=page.date %}
                         </time>
                     {% endif %}
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>{{ minutesText }}</span>
+                    <!-- <span>{{ minutesText }}</span> -->
                 </p>
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-subtitle">{{ page.subtitle }}</p>
@@ -36,6 +36,17 @@
 
             {% if site.two_columns_layout %}
                 <aside class="see-also">
+                    <h2>Contact Details</h2>
+                    <ul>
+                        <li>
+                            <h3>Ph : {{ page.ph }}</h3>
+                            <h3>Email : {{ page.email }}</h3><br>
+                            <h3>Address : </h3>
+                            <h3>{{ page.address }}</h3>
+                            <h3>City : {{ page.city }}</h3>
+                        </li>
+                    </ul>
+                    <hr>
                     <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
                     <ul>
                         {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" %}
