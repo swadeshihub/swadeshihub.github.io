@@ -19,11 +19,11 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Know Swadeshi
-    url: /know-swadeshi
+  - title: Blog
+    url: /blog
 email: swadeshihub.info@gmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: swadeshihub-github-io
 # Contact Form Setting
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
@@ -49,7 +49,7 @@ two_columns_layout: true
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-172912914-1"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
