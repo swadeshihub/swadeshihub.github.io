@@ -21,6 +21,8 @@ menu:
     url: /contact
   - title: Blog
     url: /blog
+  - title: Register
+    url: /register
 email: swadeshihub.info@gmail.com
 # See: https://disqus.com/
 disqus_username: swadeshihub-github-io
