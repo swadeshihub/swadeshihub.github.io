@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Health
-slug: health
-description: A category for Health Products.
+title: Consulting
+slug: consulting
+description: A category for Consulting Services.
 ---
 
