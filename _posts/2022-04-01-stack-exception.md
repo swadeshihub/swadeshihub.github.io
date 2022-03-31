@@ -9,7 +9,7 @@ image: >-
   https://swadeshihub.github.io/assets/images/vocal-for-local/stack-exception/slider1.jpeg
 optimized_image: >-
   https://swadeshihub.github.io/assets/images/vocal-for-local/stack-exception/slider1.jpeg
-category: IT Consulting
+category: Consulting
 tags:
   - IT
   - consulting
