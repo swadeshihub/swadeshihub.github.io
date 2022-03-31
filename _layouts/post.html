@@ -57,6 +57,36 @@
 
                 {{ content }}
 
+
+    <section id="grid" class="row flex-grid">
+        {% for product in page.products %}
+            <article class="box-item">
+                <div class="box-body">
+                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
+                        {% include loader.html %}
+                        {% if product.img %}
+                            <img src="/assets/img/placeholder.png" width="100%" data-url="{{ product.img }}" class="preload">
+                            <noscript>
+                                <img src="{{ product.img }}" width="100%">
+                            </noscript>
+                        {% else %}
+                            <img src="/assets/img/placeholder.png" width="100%" data-url="/assets/img/off.jpg" class="preload">
+                            <noscript>
+                                <img src="/assets/img/off.jpg" width="100%">
+                            </noscript>
+                        {% endif %}
+                    </a>
+                    <div class="box-info">
+                        <h2 class="post-title">
+                            {{ product.name }}
+                        </h2>
+                        <p class="description">{{ product.des }}</p>
+                    </div>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+
                 {% include pagination-post.html %}
             </article>
 

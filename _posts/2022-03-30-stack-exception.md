@@ -26,7 +26,8 @@ areacovered: India
 
 products:
   - name: Website Development 
-    pname: Built by developers for users. From Static to e-Commerce.
+    des: Built by developers for users. From Static to e-Commerce.
+    img: 
     price: 
 ---
 
